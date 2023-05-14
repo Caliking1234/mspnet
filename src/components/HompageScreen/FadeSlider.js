@@ -170,10 +170,10 @@ const FadeSlider = () => {
                 </div>
               </div>
             </div>
-            <img
+            {/* <img
               className=" w-[280px] h-[280px] sm:w-[400px] sm:h-[400px]"
               src={gify}
-            />
+            /> */}
           </div>
         </div>
       </div>
