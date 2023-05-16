@@ -8,23 +8,21 @@ import HubIcon from "@mui/icons-material/Hub";
 
 const ApplicationCards = () => {
   return (
-    <div className=" w-screen  bg-white py-10">
-      <div className=" my-5 text-slate-600">
+    <div className=" w-full  bg-white py-10">
+      <div className=" my-5 text-[rgba(16,44,81,255)]">
         <div className=" w-2/3 text-center font-extrabold font-customised1 mx-auto">
-          <h1 className=" text-black font-bold text-4xl md:text-6xl">
-            MSP Tech
-          </h1>
-          <p className=" my-2 text-2xl md:text-lg text-black">
+          <h1 className=" font-bold text-4xl md:text-6xl">MSP Tech</h1>
+          <p className=" my-2 text-2xl md:text-lg ">
             The Industry's most complete Managed Solution
           </p>
         </div>
         <div className=" w-full text-center my-10">
-          <button className=" text-black bg-transparent border-solid border-black border-2 px-5 py-2 hover:bg-black hover:text-gray-300 transition-all duration-300 rounded-md">
+          <button className=" bg-[rgba(16,44,81,255)] text-white border-solid border-black border-2 px-5 py-2 hover:text-gray-200 transition-all duration-300 rounded-sm">
             Speak With An Expert
           </button>
         </div>
         <div className=" w-full h-fit flex flex-col gap-5 md:gap-14 my-5 px-4 justify-center items-center md:flex-row">
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black bg-black lg:text-2xl">
+          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 bg-gradient-to-r from-white to-gray-300  lg:text-2xl">
             <i>
               <ConstructionIcon fontSize="large" />
             </i>
@@ -33,13 +31,13 @@ const ApplicationCards = () => {
               <h2>Meraki Wireless</h2>
             </div>
           </div>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
             <i>
               <LanguageIcon fontSize="large" />
             </i>
             <h2>Enterprise Networking</h2>
           </div>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
             <i>
               <SignalCellularAltIcon fontSize="large" />
             </i>
@@ -47,9 +45,9 @@ const ApplicationCards = () => {
           </div>
         </div>
       </div>
-      <div className=" my-10 text-slate-600">
+      <div className=" my-10  text-[rgba(16,44,81,255)]">
         <div className=" w-full h-fit flex flex-col gap-5 md:gap-14 my-5 px-4 justify-center items-center md:flex-row">
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
             <i>
               <ArchitectureIcon fontSize="large" />
             </i>
@@ -58,13 +56,13 @@ const ApplicationCards = () => {
               <h2>Testing</h2>
             </div>
           </div>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
             <i>
               <LockIcon fontSize="large" />
             </i>
             <h2>IT Consultancy</h2>
           </div>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
             <i>
               <HubIcon fontSize="large" />
             </i>
@@ -75,21 +73,21 @@ const ApplicationCards = () => {
           </div>
         </div>
       </div>
-      <div className=" my-10 text-slate-600">
+      <div className=" my-10  text-[rgba(16,44,81,255)]">
         <div className=" w-full h-fit flex flex-col gap-5 md:gap-14 my-5 px-4 justify-center items-center md:flex-row">
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
             <i>
               <ArchitectureIcon fontSize="large" />
             </i>
             <h2>IT Integration</h2>
           </div>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
             <i>
               <LockIcon fontSize="large" />
             </i>
             <h2>Cisco sdwan</h2>
           </div>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
             <i>
               <HubIcon fontSize="large" />
             </i>

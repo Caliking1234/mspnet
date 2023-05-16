@@ -10,7 +10,7 @@ const Navbar = () => {
     setnavOpen(!navOpen);
   };
   return (
-    <header className=" z-50 bg-black h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0 text-white">
+    <header className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0 bg-[rgba(16,44,81,255)] text-white">
       <div className=" px-3 lg:px-6">
         <span>
           <h1 className=" text-5xl font-extrabold">MSPNET</h1>
@@ -18,47 +18,37 @@ const Navbar = () => {
       </div>
       <nav className=" flex w-[100%] justify-items-center">
         <ul className=" hidden md:flex md:items-center md:relative md:top-0 md:left-0 md:w-[100%] md:text-xs lg:text-sm ">
-          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 border-r-2 border-gray-200 transition-all duration-300 cursor-pointer text-center">
+          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 hover:scale-125  transition-all duration-300 cursor-pointer text-center">
             Home
           </li>
-          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 border-r-2 border-gray-200  transition-all duration-300 cursor-pointer text-center">
+          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 hover:scale-125   transition-all duration-300 cursor-pointer text-center">
             More Info
           </li>
-          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 border-r-2 border-gray-200  transition-all duration-300 cursor-pointer text-center">
+          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 hover:scale-125   transition-all duration-300 cursor-pointer text-center">
             Contact Us
           </li>
-          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 border-r-2 border-gray-200  transition-all duration-300 cursor-pointer text-center">
+          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 hover:scale-125   transition-all duration-300 cursor-pointer text-center">
             Help Line
           </li>
-          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 border-r-2 border-gray-200  transition-all duration-300 cursor-pointer text-center">
+          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 hover:scale-125   transition-all duration-300 cursor-pointer text-center">
             Services
           </li>
-          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 border-r-2 border-gray-200  transition-all duration-300 cursor-pointer text-center">
+          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 hover:scale-125  transition-all duration-300 cursor-pointer text-center">
             login
           </li>
         </ul>
         <ul
           className={
             navOpen
-              ? " z-50 py-7 bg-black w-[60%] h-screen absolute top-[80px] left-0 ease-in duration-500 md:hidden text-center text-white font-customised2"
-              : " z-50 bg-black w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500 text-center text-white font-customised2s"
+              ? " z-50 py-7 bg-white w-[60%] h-screen absolute top-[80px] left-0 ease-in duration-500 md:hidden text-center font-bold font-customised2 text-black"
+              : " z-50 bg-white w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500 text-center font-bold font-customised2s text-black"
           }
         >
-          <li className=" mx-auto my-3 py-3 px-4 w-2/3 border-b-2 border-gray-400 transition-all duration-300">
-            Home
-          </li>
-          <li className=" mx-auto my-3 py-3 px-4 w-2/3 border-b-2 border-gray-400  transition-all duration-300">
-            More Info
-          </li>
-          <li className=" mx-auto my-3 py-3 px-4 w-2/3 border-b-2 border-gray-400  transition-all duration-300">
-            Contact Us
-          </li>
-          <li className=" mx-auto my-3 py-3 px-4 w-2/3 border-b-2 border-gray-400  transition-all duration-300">
-            Help Line
-          </li>
-          <li className=" mx-auto my-3 py-3 px-4 w-2/3 border-b-2 border-gray-400  transition-all duration-300">
-            Services
-          </li>
+          <li className=" mx-auto my-3 py-3 px-4 w-2/3 ">Home</li>
+          <li className=" mx-auto my-3 py-3 px-4 w-2/3 ">More Info</li>
+          <li className=" mx-auto my-3 py-3 px-4 w-2/3 ">Contact Us</li>
+          <li className=" mx-auto my-3 py-3 px-4 w-2/3 ">Help Line</li>
+          <li className=" mx-auto my-3 py-3 px-4 w-2/3 ">Services</li>
           <li className=" mx-auto my-3 py-3 px-4 w-2/3">login</li>
         </ul>
         <div

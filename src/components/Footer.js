@@ -8,7 +8,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import CallIcon from "@mui/icons-material/Call";
 const Footer = () => {
   return (
-    <footer className=" text-gray-400 w-full">
+    <footer className=" bg-[rgba(16,44,81,255)] text-gray-400 w-full">
       <div className=" flex flex-col  md:flex-row md:justify-evenly">
         <div className=" px-3 py-5 h-full flex">
           <ul className=" py-5 px-5">

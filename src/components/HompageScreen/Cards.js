@@ -4,7 +4,6 @@ import DevicesOtherIcon from "@mui/icons-material/DevicesOther";
 import AnalyticsIcon from "@mui/icons-material/Analytics";
 import ConstructionIcon from "@mui/icons-material/Construction";
 import { AnimationOnScroll } from "react-animation-on-scroll";
-import serviceImg from "../../images/service-img.webp";
 
 const Cards = () => {
   return (

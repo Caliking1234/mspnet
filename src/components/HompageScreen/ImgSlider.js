@@ -88,7 +88,7 @@ const ImgSlider = () => {
                 Helping You Manage IT Infrastructure Efficiently
               </p>
             </div>
-            <button className=" my-5 text-white bg-transparent border-solid border-white border-2 px-5 py-2 rounded-md">
+            <button className=" my-5 text-white bg-black  px-5 py-2 rounded-md">
               Click Here
             </button>
           </div>
@@ -100,7 +100,7 @@ const ImgSlider = () => {
               <h1 className=" text-4xl my-5  font-extrabold">SD-WAN</h1>
               <p className=" text-xs md:text-sm">The New Normal For Network</p>
             </div>
-            <button className=" my-5 text-white bg-transparent border-solid border-white border-2 px-5 py-2 rounded-md">
+            <button className=" my-5 text-white bg-black  px-5 py-2 rounded-md">
               Click Here
             </button>
           </div>
@@ -115,7 +115,7 @@ const ImgSlider = () => {
                 Business & Technical Requirements
               </p>
             </div>
-            <button className=" my-5 text-white bg-transparent border-solid border-white border-2 px-5 py-2 rounded-md">
+            <button className=" my-5 text-white bg-black  px-5 py-2 rounded-md">
               Click Here
             </button>
           </div>
@@ -132,7 +132,7 @@ const ImgSlider = () => {
                 For Monitoring & Services
               </p>
             </div>
-            <button className=" my-2 md:my-5 text-white bg-transparent border-solid border-white border-2 px-2 md:px-5 py-2 rounded-md">
+            <button className=" my-2 md:my-5 text-white bg-black  px-2 md:px-5 py-2 rounded-md">
               Click Here
             </button>
           </div>
