@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/mspnet/static/css/main.0b04c05d.css",
-    "main.js": "/mspnet/static/js/main.fd4e4456.js",
+    "main.css": "/mspnet/static/css/main.0dea8085.css",
+    "main.js": "/mspnet/static/js/main.0161281d.js",
     "static/js/787.cda612ba.chunk.js": "/mspnet/static/js/787.cda612ba.chunk.js",
     "static/media/itImg.png": "/mspnet/static/media/itImg.b51dda06e513cbe2bfe0.png",
     "static/media/working.gif": "/mspnet/static/media/working.6f8616333f25cf366a6f.gif",
+    "static/media/SLIDE-3.jpg": "/mspnet/static/media/SLIDE-3.397293c727c864aa0dcc.jpg",
+    "static/media/SLIDE-1.jpg": "/mspnet/static/media/SLIDE-1.19d8958a7ef29b41abd6.jpg",
     "static/media/img.jpeg": "/mspnet/static/media/img.4af26e01531e0679eafd.jpeg",
+    "static/media/SLIDE-2.jpg": "/mspnet/static/media/SLIDE-2.99ae82cebbc85b177d19.jpg",
     "static/media/itImg3.webp": "/mspnet/static/media/itImg3.dcc7d0f7781cd716fa41.webp",
     "static/media/itImg2.avif": "/mspnet/static/media/itImg2.00b5fc4d0b570b225da7.avif",
+    "static/media/it-integration.png": "/mspnet/static/media/it-integration.ffd6c3c59103fec507e7.png",
     "static/media/EMC-logo.png": "/mspnet/static/media/EMC-logo.c2558881d0a2538c32c9.png",
+    "static/media/Managed-IT-Security-Services.png": "/mspnet/static/media/Managed-IT-Security-Services.7780b9e0d80dab9005db.png",
     "static/media/manufacturing.jpg": "/mspnet/static/media/manufacturing.730d1d143d458596e82d.jpg",
+    "static/media/IT-Security-Integration.png": "/mspnet/static/media/IT-Security-Integration.df7daecb398ef8a7dd98.png",
     "static/media/slick.svg": "/mspnet/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/mspnet/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/mspnet/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/mspnet/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mspnet/index.html",
-    "main.0b04c05d.css.map": "/mspnet/static/css/main.0b04c05d.css.map",
-    "main.fd4e4456.js.map": "/mspnet/static/js/main.fd4e4456.js.map",
+    "main.0dea8085.css.map": "/mspnet/static/css/main.0dea8085.css.map",
+    "main.0161281d.js.map": "/mspnet/static/js/main.0161281d.js.map",
     "787.cda612ba.chunk.js.map": "/mspnet/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b04c05d.css",
-    "static/js/main.fd4e4456.js"
+    "static/css/main.0dea8085.css",
+    "static/js/main.0161281d.js"
   ]
 }
