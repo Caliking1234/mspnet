@@ -62,7 +62,7 @@ const AnotherSection = () => {
         </div>
       </div>
       <div className=" w-full md:w-1/2 md:h-screen flex justify-center items-center">
-        <img src={Working} className=" w-1/2 md:w-3/4 mx-auto" />
+        <img src={Working} className=" w-1/2 md:w-3/4 h-[100%] mx-auto" />
       </div>
     </div>
   );
