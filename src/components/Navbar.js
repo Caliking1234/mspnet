@@ -13,7 +13,7 @@ const Navbar = () => {
     <header className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0 bg-[rgba(16,44,81,255)] text-white">
       <div className=" px-3 lg:px-6">
         <span>
-          <h1 className=" text-5xl font-extrabold">MSPNET</h1>
+          <h1 className=" text-3xl sm:text-5xl font-extrabold">MSPNET</h1>
         </span>
       </div>
       <nav className=" flex w-[100%] justify-items-center">

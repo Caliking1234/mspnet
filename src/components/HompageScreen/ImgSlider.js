@@ -11,6 +11,10 @@ import itImg3 from "../../images/itImg3.webp";
 import itInt from "../../images/itIntegration.jpeg";
 import img from "../../images/img.jpeg";
 
+import Slide1 from "../../images/SLIDE-1.jpg";
+import Slide2 from "../../images/SLIDE-2.jpg";
+import Slide3 from "../../images/SLIDE-3.jpg";
+
 // import { Carousel, Wrap } from "./components/style";
 // import { Carousel, Wrap } from './style';
 
@@ -92,7 +96,7 @@ const ImgSlider = () => {
               Click Here
             </button>
           </div>
-          <img src={itImg} alt="badag" />
+          <img src={Slide1} alt="badag" />
         </Wrap>
         <Wrap className=" relative">
           <div className=" absolute top-[20%] translate-x-[-20%] left-[10%] text-white w-56 text-center">
@@ -104,7 +108,7 @@ const ImgSlider = () => {
               Click Here
             </button>
           </div>
-          <img src={itImg3} />
+          <img src={Slide2} />
         </Wrap>
         <Wrap className="relative">
           <div className=" absolute top-[10%] translate-x-[-10%] left-[10%] text-white w-56 text-center">
@@ -119,7 +123,7 @@ const ImgSlider = () => {
               Click Here
             </button>
           </div>
-          <img src={itInt} alt="badging" />
+          <img src={Slide3} alt="badging" />
         </Wrap>
         <Wrap className="relative">
           <div className=" absolute top-[10%] translate-x-[-10%] left-[10%] text-white w-72 text-center">
@@ -137,7 +141,7 @@ const ImgSlider = () => {
             </button>
           </div>
           <img
-            src={img}
+            src={Slide2}
             // src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7487B12724430E5DF3FBDBC9D1E1F9334674F469BA03CEFCFF700138773493C0/scale?width=1440&aspectRatio=3.91&format=jpeg"
             alt="scale"
           />
