@@ -6,7 +6,7 @@ const AnotherSection = () => {
     <div className=" flex flex-col md:flex-row">
       <div className=" w-full md:w-1/2 md:h-screen flex flex-col justify-center">
         <div className=" flex flex-col items-center justify-center">
-          <div className=" px-5 md:px-0 max-w-[400px] mx-auto font-extrabold font-customised1 py-5">
+          <div className=" px-5 md:px-0 max-w-[500px] mx-auto font-extrabold font-customised1 py-5">
             <h1 className=" font-bold text-xl md:text-3xl py-5">
               Improve and Innovate with the Tech Trends
             </h1>
@@ -15,7 +15,7 @@ const AnotherSection = () => {
               tailored to your specific needs.
             </p>
           </div>
-          <div className=" max-w-[400px] bg-slate-300 py-[10px] px-[20px] rounded-lg">
+          <div className=" max-w-[500px] w-[100%] bg-gray-300 py-[10px] px-[20px] rounded-lg md:shadow-black md:shadow-lg">
             <div className=" w-[100%] my-6">
               <div className=" flex flex-row justify-between items-center">
                 <span className=" block text-sm font-semibold text-[#333]">
