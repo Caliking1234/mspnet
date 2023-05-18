@@ -10,6 +10,7 @@ import FadeSlider from "./components/HompageScreen/FadeSlider";
 import Partners from "./components/Partners";
 import ExtraSection from "./components/HompageScreen/ExtraSection";
 import CaseStudy from "./components/HompageScreen/CaseStudy";
+import AnotherSection from "./components/HompageScreen/AnotherSection";
 function App() {
   return (
     <div className=" font-customised1">
@@ -23,6 +24,7 @@ function App() {
       <ExtraSection />
       <Partners />
       <CaseStudy />
+      <AnotherSection />
       <Footer />
     </div>
   );
