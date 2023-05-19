@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mspnet/static/css/main.4b4d72d3.css",
-    "main.js": "/mspnet/static/js/main.6b4213bf.js",
+    "main.css": "/mspnet/static/css/main.74646e50.css",
+    "main.js": "/mspnet/static/js/main.d6adc0db.js",
     "static/js/787.cda612ba.chunk.js": "/mspnet/static/js/787.cda612ba.chunk.js",
     "static/media/itImg.png": "/mspnet/static/media/itImg.b51dda06e513cbe2bfe0.png",
     "static/media/working.gif": "/mspnet/static/media/working.6f8616333f25cf366a6f.gif",
@@ -22,12 +22,12 @@
     "static/media/slick.ttf": "/mspnet/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/mspnet/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mspnet/index.html",
-    "main.4b4d72d3.css.map": "/mspnet/static/css/main.4b4d72d3.css.map",
-    "main.6b4213bf.js.map": "/mspnet/static/js/main.6b4213bf.js.map",
+    "main.74646e50.css.map": "/mspnet/static/css/main.74646e50.css.map",
+    "main.d6adc0db.js.map": "/mspnet/static/js/main.d6adc0db.js.map",
     "787.cda612ba.chunk.js.map": "/mspnet/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b4d72d3.css",
-    "static/js/main.6b4213bf.js"
+    "static/css/main.74646e50.css",
+    "static/js/main.d6adc0db.js"
   ]
 }
