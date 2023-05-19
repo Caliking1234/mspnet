@@ -42,10 +42,10 @@ const Form = () => {
           </div>
           <img src={ContacUsGif} className="hidden sm:block max-w-[200px]" />
         </div>
-        <div className=" w-full py-5 sm:py-0 sm:w-1/2 sm:min-h-[100%] flex flex-col items-center justify-center bg-gray-200 rounded-md">
+        <div className=" w-full h-fit py-5 sm:py-0 sm:w-1/2 sm:min-h-[100%] flex flex-col items-center justify-center bg-gray-200 rounded-md">
           <form
             action=""
-            className=" w-[90%] min-h-full flex flex-col items-center justify-center gap-5"
+            className=" w-[90%] flex flex-col items-center justify-center gap-2 sm:gap-4"
           >
             <input
               type="text"
@@ -97,7 +97,7 @@ const Form = () => {
               placeholder="type of query"
               className=" ring ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
             />
-            <button className=" w-1/2  py-2 px-5 text-white bg-cyan-700 hover:bg-white hover:text-cyan-700  hover:border-black hover:border-solid hover:border-[1px] ease-in duration-150 delay-75">
+            <button className=" w-1/2 mt-3  py-2 px-5 text-white bg-cyan-700 hover:bg-white hover:text-cyan-700  hover:border-black hover:border-solid hover:border-[1px] ease-in duration-150 delay-75">
               Submit
             </button>
           </form>
