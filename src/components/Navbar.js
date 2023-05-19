@@ -40,8 +40,8 @@ const Navbar = () => {
         <ul
           className={
             navOpen
-              ? " z-50 py-7 bg-white w-[60%] h-screen absolute top-[80px] left-0 ease-in duration-500 md:hidden text-center font-bold font-customised2 text-black"
-              : " z-50 bg-white w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500 text-center font-bold font-customised2s text-black"
+              ? " z-50 py-7 bg-[rgba(16,44,81,255)] text-white w-[60%] h-screen absolute top-[80px] left-0 ease-in duration-500 delay-75 md:hidden text-center font-bold font-customised1"
+              : " z-50 bg-[rgba(16,44,81,255)] text-white w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500 delay-100 text-center font-bold font-customised1"
           }
         >
           <li className=" mx-auto my-3 py-3 px-4 w-2/3 ">Home</li>

@@ -9,17 +9,9 @@ import CallIcon from "@mui/icons-material/Call";
 const Footer = () => {
   return (
     <footer className=" bg-[rgba(16,44,81,255)] text-gray-400 w-full">
-      <div className=" w-full text-center font-extrabold font-customised1 mx-auto pt-6">
-        <h1 className=" font-bold text-sm sm:text-xl md:text-4xl">
-          Take the Stress Out of Your IT Department
-        </h1>
-        <p className=" my-2 text-xs sm:text-base md:text-lg ">
-          With Enterprise Integration A Managed IT Services Provider
-        </p>
-      </div>
       <div className=" flex flex-col  md:flex-row md:justify-evenly">
-        <div className=" px-3 py-5 h-full flex">
-          <ul className=" py-5 px-5">
+        <div className=" px-5 py-5 flex">
+          <ul className=" py-5">
             <h1 className=" w-fit text-xl border-b-2 border-white">company</h1>
             <li className="pt-3 pl-3 hover:pl-5 hover:text-white ease-in duration-150">
               <a href="#">about us</a>
