@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -20,7 +21,7 @@ const Footer = () => {
               <a href="#">our services</a>
             </li>
             <li className="py-3 pl-3 hover:pl-5 hover:text-white ease-in duration-150">
-              <a href="#">contact us</a>
+              <Link to={"/contactus"}>contact us</Link>
             </li>
             <li className="py-3 pl-3 hover:pl-5 hover:text-white ease-in duration-150">
               <a href="#">get help</a>
