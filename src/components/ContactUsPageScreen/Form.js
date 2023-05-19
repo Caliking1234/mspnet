@@ -9,7 +9,7 @@ const Form = () => {
     <div className="w-[95%] h-screen mx-auto flex justify-center items-center ">
       <div className=" w-[100%] h-[70%] sm:h-[85%] bg-gray-200 sm:bg-white rounded-md flex flex-col sm:flex-row">
         <div className=" w-full sm:w-1/2 flex flex-col justify-around items-center sm:min-h-[100%]">
-          <h1 className=" text-3xl sm:text-5xl font-bold tracking-wide text-gray-400">
+          <h1 className=" mt-1 text-3xl sm:text-5xl font-bold tracking-wide text-gray-400">
             Contact Us
           </h1>
           <div className=" hidden sm:block">
@@ -50,52 +50,52 @@ const Form = () => {
             <input
               type="text"
               placeholder="Name"
-              className=" ring ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
+              className=" ring mb-[3px] ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
             />
             <input
               type="email"
               placeholder="email"
-              className=" ring ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
+              className=" ring mb-[3px] ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
             />
             <input
               type="number"
               placeholder="phone number"
-              className=" ring ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
+              className=" ring mb-[3px] ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
             />
             <input
               type="text"
               placeholder="company"
-              className=" ring ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
+              className=" ring mb-[3px] ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
             />
             <input
               type="text"
               placeholder="position"
-              className=" ring ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
+              className=" ring mb-[3px] ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
             />
             <input
               type="text"
               placeholder="company's industry"
-              className=" ring ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
+              className=" ring mb-[3px] ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
             />
             <input
               type="number"
               placeholder="no of employees"
-              className=" ring ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
+              className=" ring mb-[3px] ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
             />
             <input
               type="text"
               placeholder="country"
-              className=" ring ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
+              className=" ring mb-[3px] ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
             />
             <input
               type="text"
               placeholder="website"
-              className=" ring ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
+              className=" ring mb-[3px] ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
             />
             <input
               type="text"
               placeholder="type of query"
-              className=" ring ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
+              className=" ring mb-[3px] ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
             />
             <button className=" w-1/2 mt-3  py-2 px-5 text-white bg-cyan-700 hover:bg-white hover:text-cyan-700  hover:border-black hover:border-solid hover:border-[1px] ease-in duration-150 delay-75">
               Submit
