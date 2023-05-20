@@ -14,7 +14,7 @@ const Form = () => {
           </h1>
           <div className=" hidden sm:block">
             <div className="flex flex-row sm:flex-col sm:gap-4 text-gray-400 my-5">
-              <a className=" hover:text-white" href="#">
+              <a className=" hover:text-gray-700" href="#">
                 <i className="flex">
                   <LocationOnIcon fontSize="small" />
                   <p className=" sm:px-1 text-xs sm:text-sm">
@@ -22,7 +22,7 @@ const Form = () => {
                   </p>
                 </i>
               </a>
-              <a className=" hover:text-white" href="#">
+              <a className=" hover:text-gray-700" href="#">
                 <i className="flex">
                   <EmailIcon fontSize="small" />
                   <p className=" sm:px-1 text-xs sm:text-sm">
@@ -30,7 +30,7 @@ const Form = () => {
                   </p>
                 </i>
               </a>
-              <a className=" hover:text-white" href="#">
+              <a className=" hover:text-gray-700" href="#">
                 <i className="flex">
                   <CallIcon fontSize="small" />
                   <p className=" sm:px-1 text-xs sm:text-sm">
