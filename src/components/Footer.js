@@ -15,7 +15,7 @@ const Footer = () => {
           <ul className=" py-5">
             <h1 className=" w-fit text-xl border-b-2 border-white">company</h1>
             <li className="pt-3 pl-3 hover:pl-5 hover:text-white ease-in duration-150">
-              <a href="#">about us</a>
+              <Link to={"/aboutus"}>about us</Link>
             </li>
             <li className="py-3 pl-3 hover:pl-5 hover:text-white ease-in duration-150">
               <a href="#">our services</a>

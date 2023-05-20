@@ -6,8 +6,8 @@ import CallIcon from "@mui/icons-material/Call";
 
 const Form = () => {
   return (
-    <div className="w-[95%] h-screen mx-auto flex justify-center items-center ">
-      <div className=" w-[100%] h-[70%] sm:h-[85%] bg-gray-200 sm:bg-white rounded-md flex flex-col sm:flex-row">
+    <div className="w-[95%] min-h-screen mx-auto flex justify-center items-center py-10 ">
+      <div className=" w-[100%] py-5 bg-gray-200 sm:bg-white rounded-md flex flex-col sm:flex-row">
         <div className=" w-full sm:w-1/2 flex flex-col justify-around items-center sm:min-h-[100%]">
           <h1 className=" mt-1 text-3xl sm:text-5xl font-bold tracking-wide text-gray-400">
             Contact Us
@@ -42,10 +42,10 @@ const Form = () => {
           </div>
           <img src={ContacUsGif} className="hidden sm:block max-w-[200px]" />
         </div>
-        <div className=" w-full h-fit py-5 sm:py-0 sm:w-1/2 sm:min-h-[100%] flex flex-col items-center justify-center bg-gray-200 rounded-md">
+        <div className=" w-full h-fit py-5 sm:py-10 sm:mx-5 sm:w-1/2 sm:min-h-[100%] flex flex-col items-center justify-center bg-gray-200 rounded-md">
           <form
             action=""
-            className=" w-[90%] flex flex-col items-center justify-center gap-2 sm:gap-4"
+            className=" w-[90%] sm:min-h-[100%] flex flex-col items-center justify-center gap-2 sm:gap-4"
           >
             <input
               type="text"
