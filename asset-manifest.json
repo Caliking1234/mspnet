@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mspnet/static/css/main.eb0536f7.css",
-    "main.js": "/mspnet/static/js/main.feb4005d.js",
+    "main.css": "/mspnet/static/css/main.db59a32e.css",
+    "main.js": "/mspnet/static/js/main.02da23e8.js",
     "static/js/787.cda612ba.chunk.js": "/mspnet/static/js/787.cda612ba.chunk.js",
     "static/media/itImg.png": "/mspnet/static/media/itImg.b51dda06e513cbe2bfe0.png",
     "static/media/working.gif": "/mspnet/static/media/working.6f8616333f25cf366a6f.gif",
@@ -17,17 +17,20 @@
     "static/media/Managed-IT-Security-Services.png": "/mspnet/static/media/Managed-IT-Security-Services.7780b9e0d80dab9005db.png",
     "static/media/manufacturing.jpg": "/mspnet/static/media/manufacturing.730d1d143d458596e82d.jpg",
     "static/media/IT-Security-Integration.png": "/mspnet/static/media/IT-Security-Integration.df7daecb398ef8a7dd98.png",
+    "static/media/it-business-management.svg": "/mspnet/static/media/it-business-management.8e690f813ffcf2678c20bd27d4b55a76.svg",
+    "static/media/malware-protection.svg": "/mspnet/static/media/malware-protection.342575115e06c724b6a651c419d3e0c1.svg",
+    "static/media/it-asset-management.svg": "/mspnet/static/media/it-asset-management.b3ac63be6097d8e18e826109b6b4d9cc.svg",
     "static/media/slick.svg": "/mspnet/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/mspnet/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/mspnet/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/mspnet/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mspnet/index.html",
-    "main.eb0536f7.css.map": "/mspnet/static/css/main.eb0536f7.css.map",
-    "main.feb4005d.js.map": "/mspnet/static/js/main.feb4005d.js.map",
+    "main.db59a32e.css.map": "/mspnet/static/css/main.db59a32e.css.map",
+    "main.02da23e8.js.map": "/mspnet/static/js/main.02da23e8.js.map",
     "787.cda612ba.chunk.js.map": "/mspnet/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb0536f7.css",
-    "static/js/main.feb4005d.js"
+    "static/css/main.db59a32e.css",
+    "static/js/main.02da23e8.js"
   ]
 }
