@@ -5,10 +5,11 @@ import Slider from "./HompageScreen/ImgSlider";
 import Services from "./HompageScreen/Services";
 import ApplicationCards from "./HompageScreen/ApplicationCards";
 import ITProjects from "./HompageScreen/ITProjects";
-import Partners from "./Partners";
+import Partners from "./HompageScreen/Partners";
 import ExtraSection from "./HompageScreen/ExtraSection";
 import CaseStudy from "./HompageScreen/CaseStudy";
 import AnotherSection from "./HompageScreen/AnotherSection";
+// import list1 from "./HompageScreen/list1.js";
 
 const HomePage = () => {
   return (

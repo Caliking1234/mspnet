@@ -1,13 +1,13 @@
 import React from "react";
-import Brocade from "../images/Brocade.png";
-import Cisco from "../images/cisco-support.png";
-import Emc from "../images/EMC-logo.png";
-import F5 from "../images/f5.png";
-import Juniper from "../images/juniper-networks-image-token.png";
+import Brocade from "../../images/Brocade.png";
+import Cisco from "../../images/cisco-support.png";
+import Emc from "../../images/EMC-logo.png";
+import F5 from "../../images/f5.png";
+import Juniper from "../../images/juniper-networks-image-token.png";
 
 const Partners = () => {
   return (
-    <div className=" py-5 flex flex-col justify-around py-5">
+    <div className=" py-5 flex flex-col justify-around bg-white">
       <div className=" w-full text-center text-2xl py-5">
         <h1>our partners</h1>
       </div>

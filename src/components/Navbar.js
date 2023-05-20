@@ -3,8 +3,94 @@ import "../App.css";
 import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import DropDown from "./HompageScreen/DropDown";
+
 const Navbar = () => {
   const [navOpen, setnavOpen] = useState(false);
+  const [List1, setList1] = useState([
+    {
+      name: "Integrated Service Center (NOC)",
+      link: "mspnet/integrated-service-center",
+    },
+    {
+      name: "Network Lifecycle Management",
+      link: "mspnet/network-lifecucle-managment",
+    },
+    {
+      name: "Proactive Monitoring & Alert Managment",
+      link: "mspnet/proactive-monitoring-alert-managment",
+    },
+    {
+      name: "Network Managment",
+      link: "mspnet/network-managment",
+    },
+  ]);
+
+  const [List2, setList2] = useState([
+    {
+      name: "NetWork Security Managment",
+      link: "mspnet/network-security-managment",
+    },
+    {
+      name: "Penetration Testing",
+      link: "mspnet/penetration-testing",
+    },
+    {
+      name: "Vulnerability Managment",
+      link: "mspnet/vulnerability-managment",
+    },
+    {
+      name: "Malware Protection Services",
+      link: "mspnet/malware-protection-services",
+    },
+  ]);
+
+  const [List3, setList3] = useState([
+    {
+      name: "Network Infrastructure Design",
+      link: "mspnet/network-infrastructure-design",
+    },
+    {
+      name: "Network Optimization",
+      link: "mspnet/networ-optimization",
+    },
+    {
+      name: "WAN Optimization",
+      link: "mspnet/wan-optimization",
+    },
+    {
+      name: "System Migration",
+      link: "mspnet/system-migration",
+    },
+    {
+      name: "Network Refresh",
+      link: "mspnet/network-refresh",
+    },
+    {
+      name: "Tech Refresh",
+      link: "mspnet/tech-refresh",
+    },
+    {
+      name: "HardWare Maintenance",
+      link: "mspnet/hardware-maintenance",
+    },
+    {
+      name: "Network Migration",
+      link: "mspnet/network-migration",
+    },
+    {
+      name: "Hardware Refresh",
+      link: "mspnet/hardware-refresh",
+    },
+    {
+      name: "SD WAN Solution",
+      link: "mspnet/sd-wan-sol",
+    },
+    {
+      name: "Cloud Migration",
+      link: "mspnet/cloud-migration",
+    },
+  ]);
 
   const handelnav = () => {
     setnavOpen(!navOpen);
@@ -18,23 +104,17 @@ const Navbar = () => {
       </div>
       <nav className=" flex w-[100%] justify-items-center">
         <ul className=" hidden md:flex md:items-center md:relative md:top-0 md:left-0 md:w-[100%] md:text-xs lg:text-sm ">
-          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 hover:scale-125  transition-all duration-300 cursor-pointer text-center">
+          <li className=" my-3 py-3 px-2 w-fit hover:text-gray-500  transition-all duration-300 cursor-pointer text-center">
             Home
           </li>
-          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 hover:scale-125   transition-all duration-300 cursor-pointer text-center">
-            More Info
+          <li className=" my-3 py-3 px-2 w-fit hover:text-gray-500  transition-all duration-300 cursor-pointer text-center">
+            <DropDown title="Managed IT Services" list1={List1} />
           </li>
-          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 hover:scale-125   transition-all duration-300 cursor-pointer text-center">
-            Contact Us
+          <li className=" my-3 py-3 px-2 w-fit hover:text-gray-500   transition-all duration-300 cursor-pointer text-center">
+            <DropDown title="Managed Security Services" list1={List2} />
           </li>
-          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 hover:scale-125   transition-all duration-300 cursor-pointer text-center">
-            Help Line
-          </li>
-          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 hover:scale-125   transition-all duration-300 cursor-pointer text-center">
-            Services
-          </li>
-          <li className=" my-3 py-3 px-4 w-1/2 lg:w-32 hover:scale-125  transition-all duration-300 cursor-pointer text-center">
-            login
+          <li className=" my-3 py-3 px-2 w-fit hover:text-gray-500   transition-all duration-300 cursor-pointer text-center">
+            <DropDown title="IT Project Services" list1={List3} />
           </li>
         </ul>
         <ul
@@ -44,12 +124,16 @@ const Navbar = () => {
               : " z-50 bg-[rgba(16,44,81,255)] text-white w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500 delay-100 text-center font-bold font-customised1"
           }
         >
-          <li className=" mx-auto my-3 py-3 px-4 w-2/3 ">Home</li>
-          <li className=" mx-auto my-3 py-3 px-4 w-2/3 ">More Info</li>
-          <li className=" mx-auto my-3 py-3 px-4 w-2/3 ">Contact Us</li>
-          <li className=" mx-auto my-3 py-3 px-4 w-2/3 ">Help Line</li>
-          <li className=" mx-auto my-3 py-3 px-4 w-2/3 ">Services</li>
-          <li className=" mx-auto my-3 py-3 px-4 w-2/3">login</li>
+          <li className=" mx-auto my-3 py-3 px-4 w-fit ">Home</li>
+          <li className=" mx-auto my-3 py-3 px-4 w-fit ">
+            <DropDown title="Managed IT Services" list1={List1} />
+          </li>
+          <li className=" mx-auto my-3 py-3 px-4 w-fit ">
+            <DropDown title="Managed Security Services" list1={List2} />
+          </li>
+          <li className=" mx-auto my-3 py-3 px-4 w-fit ">
+            <DropDown title="IT Project Services" list1={List3} />
+          </li>
         </ul>
         <div
           onClick={handelnav}
