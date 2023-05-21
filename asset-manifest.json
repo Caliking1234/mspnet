@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mspnet/static/css/main.f9dc1c77.css",
-    "main.js": "/mspnet/static/js/main.46375124.js",
+    "main.css": "/mspnet/static/css/main.0aefa0f3.css",
+    "main.js": "/mspnet/static/js/main.a6164063.js",
     "static/js/787.cda612ba.chunk.js": "/mspnet/static/js/787.cda612ba.chunk.js",
     "static/media/itImg.png": "/mspnet/static/media/itImg.b51dda06e513cbe2bfe0.png",
     "static/media/working.gif": "/mspnet/static/media/working.6f8616333f25cf366a6f.gif",
@@ -11,26 +11,39 @@
     "static/media/img.jpeg": "/mspnet/static/media/img.4af26e01531e0679eafd.jpeg",
     "static/media/SLIDE-2.jpg": "/mspnet/static/media/SLIDE-2.99ae82cebbc85b177d19.jpg",
     "static/media/itImg3.webp": "/mspnet/static/media/itImg3.dcc7d0f7781cd716fa41.webp",
+    "static/media/penetration-testing-570x687-1-249x300.png": "/mspnet/static/media/penetration-testing-570x687-1-249x300.29dda2dcbb3bb3c8dbc7.png",
+    "static/media/network-security-mgmt-570x653-1-262x300.png": "/mspnet/static/media/network-security-mgmt-570x653-1-262x300.ee5051fef4335d3d8b0b.png",
+    "static/media/malware-protection-feat.svg": "/mspnet/static/media/malware-protection-feat.1456db02f2e174f81644d11d03565b6e.svg",
+    "static/media/proactive-monitoring-alert-management-feat.svg": "/mspnet/static/media/proactive-monitoring-alert-management-feat.06af1339ca8c240cb58835166b739656.svg",
+    "static/media/vulnerability-management-feat.svg": "/mspnet/static/media/vulnerability-management-feat.eb84db1e726fdcd1a8c1c3102a1d54b9.svg",
     "static/media/itImg2.avif": "/mspnet/static/media/itImg2.00b5fc4d0b570b225da7.avif",
     "static/media/it-integration.png": "/mspnet/static/media/it-integration.ffd6c3c59103fec507e7.png",
     "static/media/EMC-logo.png": "/mspnet/static/media/EMC-logo.c2558881d0a2538c32c9.png",
+    "static/media/network-lifecycle-management-feat.svg": "/mspnet/static/media/network-lifecycle-management-feat.9d4a1b2d48760871e1deca810f1d14bb.svg",
     "static/media/Managed-IT-Security-Services.png": "/mspnet/static/media/Managed-IT-Security-Services.7780b9e0d80dab9005db.png",
     "static/media/manufacturing.jpg": "/mspnet/static/media/manufacturing.730d1d143d458596e82d.jpg",
+    "static/media/network-migration-feat.svg": "/mspnet/static/media/network-migration-feat.8ea613a3675f2c2589ee3f3221ba0cc9.svg",
     "static/media/IT-Security-Integration.png": "/mspnet/static/media/IT-Security-Integration.df7daecb398ef8a7dd98.png",
     "static/media/it-business-management.svg": "/mspnet/static/media/it-business-management.8e690f813ffcf2678c20bd27d4b55a76.svg",
     "static/media/malware-protection.svg": "/mspnet/static/media/malware-protection.342575115e06c724b6a651c419d3e0c1.svg",
     "static/media/it-asset-management.svg": "/mspnet/static/media/it-asset-management.b3ac63be6097d8e18e826109b6b4d9cc.svg",
+    "static/media/icn-expanded-vision-ltbl-20.svg": "/mspnet/static/media/icn-expanded-vision-ltbl-20.30b0c2e4f709fb3895ac07672deef446.svg",
+    "static/media/icn-cir-expertise-ltbl-20.svg": "/mspnet/static/media/icn-cir-expertise-ltbl-20.b26638ed8802a8c00211ca4c0f0390c1.svg",
+    "static/media/icn-checklist-verified-ltbl-20.svg": "/mspnet/static/media/icn-checklist-verified-ltbl-20.5aaaca3b45f41624ecfbb78712c74189.svg",
+    "static/media/icn-rocket-ltbl-20.svg": "/mspnet/static/media/icn-rocket-ltbl-20.f007bd5f8efb1fcb635ed679fd93b29d.svg",
     "static/media/slick.svg": "/mspnet/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/icn-expert-ltbl-20.svg": "/mspnet/static/media/icn-expert-ltbl-20.47b015ed94edb6c8134f790342c4b55a.svg",
     "static/media/slick.eot": "/mspnet/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/mspnet/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/icn-report-analytics-verified-ltbl-20.svg": "/mspnet/static/media/icn-report-analytics-verified-ltbl-20.c693aaac8ccf4f42e620a552f4cc6e10.svg",
     "static/media/slick.woff": "/mspnet/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mspnet/index.html",
-    "main.f9dc1c77.css.map": "/mspnet/static/css/main.f9dc1c77.css.map",
-    "main.46375124.js.map": "/mspnet/static/js/main.46375124.js.map",
+    "main.0aefa0f3.css.map": "/mspnet/static/css/main.0aefa0f3.css.map",
+    "main.a6164063.js.map": "/mspnet/static/js/main.a6164063.js.map",
     "787.cda612ba.chunk.js.map": "/mspnet/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9dc1c77.css",
-    "static/js/main.46375124.js"
+    "static/css/main.0aefa0f3.css",
+    "static/js/main.a6164063.js"
   ]
 }
