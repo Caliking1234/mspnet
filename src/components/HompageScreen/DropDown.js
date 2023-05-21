@@ -10,7 +10,7 @@ const DropDown = ({ title, list1 }) => {
       onClick={() => setIsOpen(!IsOpen)}
       className=" bg-[rgba(16,44,81,255)] relative w-fit"
     >
-      <button className=" w-fit">{title}</button>
+      <button className=" text-xs w-fit">{title}</button>
       {IsOpen ? (
         <ArrowDropUpIcon fontSize="small" />
       ) : (
