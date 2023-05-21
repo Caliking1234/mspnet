@@ -4,7 +4,7 @@ import svg1 from "../../images/network-migration-feat.svg";
 const NetworkManagementSection1 = () => {
   return (
     <div className=" w-full mt-[80px]">
-      <div className="w-full text-center bg-gray-200">
+      <div className="w-full text-center bg-gray-200 py-10">
         <h1 className=" px-5 text-xl sm:text-3xl md:text-4xl py-6 text-[rgba(16,44,81,255)]">
           Automated Network Management with Maximum ROI
         </h1>

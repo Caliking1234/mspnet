@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import DropDown from "./HompageScreen/DropDown";
-import Accordian from "./HompageScreen/Accordian";
+import Accordian from "./Accordianss";
 
 const Navbar = () => {
   const [navOpen, setnavOpen] = useState(false);
@@ -37,19 +37,19 @@ const Navbar = () => {
       module: [
         {
           name: "NetWork Security Managment",
-          link: "mspnet/network-security-managment",
+          link: "/network-security-managment",
         },
         {
           name: "Penetration Testing",
-          link: "mspnet/penetration-testing",
+          link: "/penetration-testing",
         },
         {
           name: "Vulnerability Managment",
-          link: "mspnet/vulnerability-managment",
+          link: "/vulnerability-managment",
         },
         {
           name: "Malware Protection Services",
-          link: "mspnet/malware-protection-services",
+          link: "/malware-protection-services",
         },
       ],
     },
@@ -116,40 +116,41 @@ const Navbar = () => {
       </div>
       <nav className=" flex w-[100%] justify-items-center">
         <ul className=" hidden md:flex md:items-center md:relative md:top-0 md:left-0 md:w-[100%] md:text-xs lg:text-sm ">
-          <li className=" my-3 py-3 px-2 w-fit hover:text-gray-500  transition-all duration-300 cursor-pointer text-center">
+          <li className=" my-3 mx-3 py-3 px-2 w-fit hover:text-gray-500  transition-all duration-300 cursor-pointer text-center">
             <Link to="/mspnet">Home</Link>
           </li>
           {List1.map((item, index) => {
             return (
               <li
                 key={index}
-                className=" my-3 py-3 px-2 w-fit hover:text-gray-500  transition-all duration-300 cursor-pointer text-center"
+                className=" my-3 mx-3 py-3 px-2 w-fit hover:text-gray-500  transition-all duration-300 cursor-pointer text-center"
               >
                 <DropDown title={item.title} list1={item.module} />
               </li>
             );
           })}
         </ul>
-        {/* <ul
+        <ul
           className={
             navOpen
-              ? " z-50 py-7 bg-[rgba(16,44,81,255)] text-white w-[60%] h-screen absolute top-[80px] left-0 ease-in duration-500 delay-75 md:hidden text-center font-bold font-customised1"
-              : " z-50 bg-[rgba(16,44,81,255)] text-white w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500 delay-100 text-center font-bold font-customised1"
+              ? " z-50 py-3 bg-[rgba(16,44,81,255)] text-white w-[60%] h-screen absolute top-[80px] left-0 ease-in duration-500  md:hidden text-center font-bold font-customised1"
+              : " z-50 bg-[rgba(16,44,81,255)] text-white w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500  text-center font-bold font-customised1"
           }
         >
-          <li className=" mx-auto my-3 py-3 px-4 w-fit ">Home</li>
+          <li className=" mx-auto my-2 py-3 px-4 w-fit ">
+            <Link to="/mspnet">Home</Link>
+          </li>
           {List1.map((item, index) => {
             return (
-              <li key={index} className=" mx-auto my-3 py-3 px-4 w-fit ">
-                <Accordian
-                  index={index}
-                  title={item.title}
-                  module={item.module}
-                />
+              <li
+                key={index}
+                className=" my-2 mx-auto h-fit py-3 px-2 w-fit hover:text-gray-500  transition-all duration-300 cursor-pointer text-center"
+              >
+                <DropDown title={item.title} list1={item.module} />
               </li>
             );
           })}
-        </ul> */}
+        </ul>
         <div
           onClick={handelnav}
           className=" cursor-pointer flex items-center justify-center absolute top-[50%] translate-y-[-50%] right-0 mr-5 sm:mr-10 md:hidden"

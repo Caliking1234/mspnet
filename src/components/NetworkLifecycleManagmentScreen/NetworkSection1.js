@@ -4,7 +4,7 @@ import svg1 from "../../images/network-lifecycle-management-feat.svg";
 const NetworkSection1 = () => {
   return (
     <div className=" w-full mt-[80px]">
-      <div className="w-full text-center bg-gray-200">
+      <div className="w-full text-center bg-gray-200 py-10">
         <h1 className=" px-5 text-xl sm:text-3xl md:text-4xl py-6 text-[rgba(16,44,81,255)]">
           Network Lifecycle Management Solutions that Deliver Significant Cost
           Savings
@@ -114,7 +114,7 @@ const NetworkSection1 = () => {
           of your network.
         </h1>
         <div className=" w-1/2 h-1 mx-auto bg-white my-7"></div>
-        <h1 className=" w-[100%] px-3 mx-auto text-base sm:text-xl text-white font-bold">
+        <h1 className=" w-[100%] px-3 sm:px-5 mx-auto text-base sm:text-xl text-white font-bold">
           DON’T WASTE ANY MORE TIME COUNTING ON SUPPORT FROM UNDERPERFORMING
           SYSTEMS. IMPROVE YOUR INFRASTRUCTURE PRODUCTIVITY AND CREATE A MORE
           MANAGEABLE AND FLEXIBLE ENVIRONMENT.

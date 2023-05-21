@@ -10,7 +10,6 @@ const NetworkManagement = () => {
       <Navbar />
       <NetworkManagementSection1 />
       <NetworkManagementSection2 />
-
       <Footer />
     </div>
   );
