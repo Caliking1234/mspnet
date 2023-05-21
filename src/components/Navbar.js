@@ -4,91 +4,103 @@ import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import DropDown from "./HompageScreen/DropDown";
+import Accordian from "./HompageScreen/Accordian";
 
 const Navbar = () => {
   const [navOpen, setnavOpen] = useState(false);
+
   const [List1, setList1] = useState([
     {
-      name: "Integrated Service Center (NOC)",
-      link: "mspnet/integrated-service-center",
+      title: "Managed IT Services",
+      module: [
+        {
+          name: "Integrated Service Center (NOC)",
+          link: "/integrated-service-center",
+        },
+        {
+          name: "Network Lifecycle Management",
+          link: "/network-lifecycle-managment",
+        },
+        {
+          name: "Proactive Monitoring & Alert Managment",
+          link: "/proactive-monitoring-alert-managment",
+        },
+        {
+          name: "Network Managment",
+          link: "/network-managment",
+        },
+      ],
     },
-    {
-      name: "Network Lifecycle Management",
-      link: "mspnet/network-lifecucle-managment",
-    },
-    {
-      name: "Proactive Monitoring & Alert Managment",
-      link: "mspnet/proactive-monitoring-alert-managment",
-    },
-    {
-      name: "Network Managment",
-      link: "mspnet/network-managment",
-    },
-  ]);
 
-  const [List2, setList2] = useState([
     {
-      name: "NetWork Security Managment",
-      link: "mspnet/network-security-managment",
+      title: "Managed Security Services",
+      module: [
+        {
+          name: "NetWork Security Managment",
+          link: "mspnet/network-security-managment",
+        },
+        {
+          name: "Penetration Testing",
+          link: "mspnet/penetration-testing",
+        },
+        {
+          name: "Vulnerability Managment",
+          link: "mspnet/vulnerability-managment",
+        },
+        {
+          name: "Malware Protection Services",
+          link: "mspnet/malware-protection-services",
+        },
+      ],
     },
     {
-      name: "Penetration Testing",
-      link: "mspnet/penetration-testing",
-    },
-    {
-      name: "Vulnerability Managment",
-      link: "mspnet/vulnerability-managment",
-    },
-    {
-      name: "Malware Protection Services",
-      link: "mspnet/malware-protection-services",
-    },
-  ]);
-
-  const [List3, setList3] = useState([
-    {
-      name: "Network Infrastructure Design",
-      link: "mspnet/network-infrastructure-design",
-    },
-    {
-      name: "Network Optimization",
-      link: "mspnet/networ-optimization",
-    },
-    {
-      name: "WAN Optimization",
-      link: "mspnet/wan-optimization",
-    },
-    {
-      name: "System Migration",
-      link: "mspnet/system-migration",
-    },
-    {
-      name: "Network Refresh",
-      link: "mspnet/network-refresh",
-    },
-    {
-      name: "Tech Refresh",
-      link: "mspnet/tech-refresh",
-    },
-    {
-      name: "HardWare Maintenance",
-      link: "mspnet/hardware-maintenance",
-    },
-    {
-      name: "Network Migration",
-      link: "mspnet/network-migration",
-    },
-    {
-      name: "Hardware Refresh",
-      link: "mspnet/hardware-refresh",
-    },
-    {
-      name: "SD WAN Solution",
-      link: "mspnet/sd-wan-sol",
-    },
-    {
-      name: "Cloud Migration",
-      link: "mspnet/cloud-migration",
+      title: "IT Project Services",
+      module: [
+        {
+          name: "Network Infrastructure Design",
+          link: "mspnet/network-infrastructure-design",
+        },
+        {
+          name: "Network Optimization",
+          link: "mspnet/networ-optimization",
+        },
+        {
+          name: "WAN Optimization",
+          link: "mspnet/wan-optimization",
+        },
+        {
+          name: "System Migration",
+          link: "mspnet/system-migration",
+        },
+        {
+          name: "Network Refresh",
+          link: "mspnet/network-refresh",
+        },
+        {
+          name: "Tech Refresh",
+          link: "mspnet/tech-refresh",
+        },
+        {
+          name: "HardWare Maintenance",
+          link: "mspnet/hardware-maintenance",
+        },
+        {
+          name: "Network Migration",
+          link: "mspnet/network-migration",
+        },
+        {
+          name: "Hardware Refresh",
+          link: "mspnet/hardware-refresh",
+        },
+        {
+          name: "SD WAN Solution",
+          link: "mspnet/sd-wan-sol",
+        },
+        {
+          name: "Cloud Migration",
+          link: "mspnet/cloud-migration",
+        },
+      ],
     },
   ]);
 
@@ -105,19 +117,20 @@ const Navbar = () => {
       <nav className=" flex w-[100%] justify-items-center">
         <ul className=" hidden md:flex md:items-center md:relative md:top-0 md:left-0 md:w-[100%] md:text-xs lg:text-sm ">
           <li className=" my-3 py-3 px-2 w-fit hover:text-gray-500  transition-all duration-300 cursor-pointer text-center">
-            Home
+            <Link to="/mspnet">Home</Link>
           </li>
-          <li className=" my-3 py-3 px-2 w-fit hover:text-gray-500  transition-all duration-300 cursor-pointer text-center">
-            <DropDown title="Managed IT Services" list1={List1} />
-          </li>
-          <li className=" my-3 py-3 px-2 w-fit hover:text-gray-500   transition-all duration-300 cursor-pointer text-center">
-            <DropDown title="Managed Security Services" list1={List2} />
-          </li>
-          <li className=" my-3 py-3 px-2 w-fit hover:text-gray-500   transition-all duration-300 cursor-pointer text-center">
-            <DropDown title="IT Project Services" list1={List3} />
-          </li>
+          {List1.map((item, index) => {
+            return (
+              <li
+                key={index}
+                className=" my-3 py-3 px-2 w-fit hover:text-gray-500  transition-all duration-300 cursor-pointer text-center"
+              >
+                <DropDown title={item.title} list1={item.module} />
+              </li>
+            );
+          })}
         </ul>
-        <ul
+        {/* <ul
           className={
             navOpen
               ? " z-50 py-7 bg-[rgba(16,44,81,255)] text-white w-[60%] h-screen absolute top-[80px] left-0 ease-in duration-500 delay-75 md:hidden text-center font-bold font-customised1"
@@ -125,16 +138,18 @@ const Navbar = () => {
           }
         >
           <li className=" mx-auto my-3 py-3 px-4 w-fit ">Home</li>
-          <li className=" mx-auto my-3 py-3 px-4 w-fit ">
-            <DropDown title="Managed IT Services" list1={List1} />
-          </li>
-          <li className=" mx-auto my-3 py-3 px-4 w-fit ">
-            <DropDown title="Managed Security Services" list1={List2} />
-          </li>
-          <li className=" mx-auto my-3 py-3 px-4 w-fit ">
-            <DropDown title="IT Project Services" list1={List3} />
-          </li>
-        </ul>
+          {List1.map((item, index) => {
+            return (
+              <li key={index} className=" mx-auto my-3 py-3 px-4 w-fit ">
+                <Accordian
+                  index={index}
+                  title={item.title}
+                  module={item.module}
+                />
+              </li>
+            );
+          })}
+        </ul> */}
         <div
           onClick={handelnav}
           className=" cursor-pointer flex items-center justify-center absolute top-[50%] translate-y-[-50%] right-0 mr-5 sm:mr-10 md:hidden"

@@ -9,11 +9,14 @@ import Partners from "./HompageScreen/Partners";
 import ExtraSection from "./HompageScreen/ExtraSection";
 import CaseStudy from "./HompageScreen/CaseStudy";
 import AnotherSection from "./HompageScreen/AnotherSection";
+// import IntegratedServiceCenter from "./IntegratedServiceCenter";
+
 // import list1 from "./HompageScreen/list1.js";
 
 const HomePage = () => {
   return (
     <div>
+      {/* <IntegratedServiceCenter /> */}
       <Navbar />
       <Slider />
       <Services />

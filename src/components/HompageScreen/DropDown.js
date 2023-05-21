@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
@@ -26,7 +26,7 @@ const DropDown = ({ title, list1 }) => {
         {list1.map((module, i) => {
           return (
             <div className=" py-2 px-5 mx-auto">
-              <h3>{module.name}</h3>
+              <Link to={module.link}>{module.name}</Link>
             </div>
           );
         })}
