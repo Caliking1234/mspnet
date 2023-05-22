@@ -17,6 +17,9 @@ import WanOptimization from "./components/WanOptimization";
 import NetworkRefresh from "./components/NetworkRefresh";
 import TechRefresh from "./components/TechRefresh";
 import HardwareMaintenance from "./components/HardwareMaintenance";
+import NetworkMigration from "./components/NetworkMigration";
+import HardwareRefresh from "./components/HardwareRefresh";
+import SDWANSolutio from "./components/SDWANSolution";
 function App() {
   return (
     <div className=" font-customised1">
@@ -83,6 +86,13 @@ function App() {
             element={<HardwareMaintenance />}
             exact
           />
+          <Route
+            path="/network-migration"
+            element={<NetworkMigration />}
+            exact
+          />
+          <Route path="/hardware-refresh" element={<HardwareRefresh />} exact />
+          <Route path="/sd-wan-sol" element={<SDWANSolutio />} exact />
         </Routes>
       </Router>
     </div>

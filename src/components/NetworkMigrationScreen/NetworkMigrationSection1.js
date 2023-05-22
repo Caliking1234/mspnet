@@ -1,49 +1,43 @@
 import React from "react";
-import svg1 from "../../images/malware-protection-feat.svg";
+import svg1 from "../../images/network-migration-feat.svg";
 
-const MalwareProtectionSection = () => {
+const NetworkMigrationSection1 = () => {
   return (
     <div className=" w-full mt-[80px]">
       <div className="w-full text-center bg-gray-200 py-10">
         <h1 className=" px-5 text-xl sm:text-3xl md:text-4xl py-6 text-[rgba(16,44,81,255)]">
-          Malware Protection Services That Proactively Protect All Endpoints
-          Across Your Network
+          Overcome Network Migration Challenges
         </h1>
         <p className=" px-5 text-base md:text-lg py-3 text-[rgba(16,44,81,255)]">
-          Deploy Full-Spectrum Endpoint Security and Guaranteed Ransomware
-          Protection
+          MSP Network Migration Service Gives You the Most Efficient Route from
+          Point A to Point B
         </p>
       </div>
       <div className="w-[80%] mx-auto">
         <h1 className=" w-full text-center text-lg sm:text-xl md:text-4xl py-6 text-[rgba(16,44,81,255)]">
-          Arm your organization with the ability to proactively avoid malware
-          infection.
+          Enjoy Minimal Disruptions to Both Worker & Customer Operations!
         </h1>
         <div className=" text-gray-400 py-10">
           <div className=" flex flex-row py-3">
             <div>-</div>
             <div>
-              Are you struggling to hold off cyberattacks using a cornucopia of
-              antivirus and endpoint security tools that need to constantly be
-              kept up to date?
+              Worried that “stretched” internal resources could make your
+              network migration difficult?
             </div>
           </div>
 
           <div className=" flex flex-row py-3">
             <div>-</div>
             <div>
-              Have you been forced to install emergency utilities to protect
-              your systems from the latest malware threats while you waited for
-              your antimalware manufacturer to catch up and finally put out a
-              signature update?
+              Want to save money – as much as 20% to 25% or more – on your
+              upcoming network migration?
             </div>
           </div>
           <div className=" flex flex-row py-3">
             <div>-</div>
             <div>
-              Despite your best efforts, do you find yourself reimaging several
-              systems per month after they have been compromised by a malware
-              variant or Trojan horse that somehow slipped through the cracks?
+              Looking to complete a network migration on schedule and on budget
+              with minimal work disruption?
             </div>
           </div>
         </div>
@@ -51,92 +45,92 @@ const MalwareProtectionSection = () => {
       <div className=" w-[50%] h-1 mx-auto bg-[rgba(16,44,81,255)] my-7"></div>
       <div className="w-full bg-gray-200 mt-5">
         <h1 className=" text-center text-xl md:text-4xl py-6 text-[rgba(16,44,81,255)]">
-          With The Compact Footprint and Predictive Learning Power of Malware
-          Protection Services from Enterprise Integration, You Can
+          Our Network Migration Service Helps You Avoid Delays, Lost Customers &
+          Lost Revenue
         </h1>
         <div className="flex flex-col sm:flex-row">
           <div className=" w-[80%] pl-6 md:pl-0 md:w-1/2  mx-auto text-gray-500 py-10 flex flex-col justify-center md:ml-[80px]">
             <div className=" flex flex-row py-3">
               <div>-</div>
-              <div>Say goodbye to signature updates for good</div>
+              <div>Get your migration completed on time and on budget</div>
+            </div>
+            <div className=" flex flex-row py-3">
+              <div>-</div>
+              <div>Save money on the cost of your migration</div>
             </div>
             <div className=" flex flex-row py-3">
               <div>-</div>
               <div>
-                Rely on proven machine-learning capabilities that have compiled
-                an unparalleled protection success rate
+                Enjoy accelerated completion compared to the time it would take
+                to complete the migration in-house
+              </div>
+            </div>
+            <div className=" flex flex-row py-3">
+              <div>-</div>
+              <div>Minimize error and churn rates</div>
+            </div>
+            <div className=" flex flex-row py-3">
+              <div>-</div>
+              <div>Get accurate tracking of key performance indicators</div>
+            </div>
+            <div className=" flex flex-row py-3">
+              <div>-</div>
+              <div>
+                Enhance your network and boost both worker and customer
+                satisfaction
               </div>
             </div>
             <div className=" flex flex-row py-3">
               <div>-</div>
               <div>
-                Quickly deploy bullet-proof protection across your organization
+                Seamlessly integrate with both new and legacy equipment and
+                applications
               </div>
             </div>
             <div className=" flex flex-row py-3">
               <div>-</div>
-              <div>
-                Safeguard your systems against both known and unknown malware
-              </div>
+              <div>Avoid the costs of prolonged network downtime</div>
             </div>
             <div className=" flex flex-row py-3">
               <div>-</div>
               <div>
-                Get up to $1 million guaranteed protection against ransomware
-              </div>
-            </div>
-            <div className=" flex flex-row py-3">
-              <div>-</div>
-              <div>Stymie zero-day attacks before they can execute</div>
-            </div>
-            <div className=" flex flex-row py-3">
-              <div>-</div>
-              <div>
-                Maximize endpoint performance with a light-weight client that
-                does not hog memory or CPU resources
-              </div>
-            </div>
-            <div className=" flex flex-row py-3">
-              <div>-</div>
-              <div>
-                Control device access to help eliminate external threats
-              </div>
-            </div>
-            <div className=" flex flex-row py-3">
-              <div>-</div>
-              <div>
-                Smoothly integrate malware protection into your existing
-                workflows through a flexible API
-              </div>
-            </div>
-            <div className=" flex flex-row py-3">
-              <div>-</div>
-              <div>
-                Rely upon top-flight support with superior protection regardless
-                of circumstance
+                Get a solution that meshes with all technologies and vendor
+                products
               </div>
             </div>
           </div>
           <div className=" w-full md:w-[50%] min-h-full flex justify-center items-center py-5">
-            <img src={svg1} className=" max-w-[280px] p-5" />
+            <img src={svg1} className=" max-w-[2800px] p-5" />
           </div>
         </div>
       </div>
       <div className="bg-[rgba(16,44,81,255)] w-full text-center py-5">
         <h1 className=" w-[100%] px-3 mx-auto text-lg sm:text-2xl text-white font-bold">
-          Preventing anomalous programs from executing is more critical than
-          ever.
+          MSP Delivers Strategic Migration Planning and Execution That Minimizes
+          Downtime and Keeps Your Business Moving Forward
         </h1>
         <div className=" w-1/2 h-1 mx-auto bg-white my-7"></div>
         <h1 className=" w-[100%] px-3 sm:px-5 mx-auto text-base sm:text-xl text-white font-bold">
-          MALWARE PROTECTION SERVICES FROM EI UTILIZES A DEMONSTRATED EFFECTIVE
-          PARADIGM TO SPOT SUSPICIOUS ACTORS AND PREVENT THEM FROM DOING ANY
-          DAMAGE – EVEN IF THE ENDPOINT IS DISCONNECTED FROM THE NETWORK.
+          Network Migrations can be complex and filled with challenges – MSP
+          ensures a smooth migration with its extensive experience and proven
+          processes!
         </h1>
+        <div className="w-[80%] mx-auto py-7">
+          <p className="text-center text-base sm:text-xl font-customised2 text-gray-400 py-3">
+            Our team of experts has solved complex migration challenges for a
+            wide variety of organizations both large and small. We will design,
+            test and execute your migration increasing efficiency and easing
+            pressure on your internal IT team. The end result is a network
+            migration solution that delivers the perfect environment for your
+            business while minimizing downtime and increasing cost efficiency.
+            Avoid the headaches and stresses that usually come with a network
+            migration – let MSP ensure your migration goes as smooth as possible
+            and stays on time and on budget.
+          </p>
+        </div>
       </div>
-      <div className="w-full min-h-[50px] bg-gray-200"></div>
     </div>
   );
 };
 
-export default MalwareProtectionSection;
+export default NetworkMigrationSection1;

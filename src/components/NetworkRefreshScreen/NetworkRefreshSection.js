@@ -107,7 +107,7 @@ const NetworkRefreshSection = () => {
             </div>
           </div>
           <div className=" w-full md:w-[50%] min-h-full flex justify-center items-center py-5">
-            <img src={svg1} className=" max-w-[350px] p-5" />
+            <img src={svg1} className=" max-w-[280px] p-5" />
           </div>
         </div>
       </div>
