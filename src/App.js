@@ -11,6 +11,12 @@ import NetworkSecurityManagement from "./components/NetworkSecurityManagement";
 import PenetrationTesting from "./components/PenetrationTesting";
 import MalwareProtection from "./components/MalwareProtection";
 import VulnerabilityManagement from "./components/VulnerabilityManagement";
+import NetworkInfrastructureDesign from "./components/NetworkInfrastructureDesign";
+import NetworkOptimization from "./components/NetworkOptimization";
+import WanOptimization from "./components/WanOptimization";
+import NetworkRefresh from "./components/NetworkRefresh";
+import TechRefresh from "./components/TechRefresh";
+import HardwareMaintenance from "./components/HardwareMaintenance";
 function App() {
   return (
     <div className=" font-customised1">
@@ -57,6 +63,24 @@ function App() {
           <Route
             path="/vulnerability-managment"
             element={<VulnerabilityManagement />}
+            exact
+          />
+          <Route
+            path="/network-infrastructure-design"
+            element={<NetworkInfrastructureDesign />}
+            exact
+          />
+          <Route
+            path="/network-optimization"
+            element={<NetworkOptimization />}
+            exact
+          />
+          <Route path="/wan-optimization" element={<WanOptimization />} exact />
+          <Route path="/network-refresh" element={<NetworkRefresh />} exact />
+          <Route path="/tech-refresh" element={<TechRefresh />} exact />
+          <Route
+            path="/hardware-maintenance"
+            element={<HardwareMaintenance />}
             exact
           />
         </Routes>

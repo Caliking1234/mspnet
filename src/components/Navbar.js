@@ -58,47 +58,47 @@ const Navbar = () => {
       module: [
         {
           name: "Network Infrastructure Design",
-          link: "mspnet/network-infrastructure-design",
+          link: "/network-infrastructure-design",
         },
         {
           name: "Network Optimization",
-          link: "mspnet/networ-optimization",
+          link: "/network-optimization",
         },
         {
           name: "WAN Optimization",
-          link: "mspnet/wan-optimization",
+          link: "/wan-optimization",
         },
         {
           name: "System Migration",
-          link: "mspnet/system-migration",
+          link: "/system-migration",
         },
         {
           name: "Network Refresh",
-          link: "mspnet/network-refresh",
+          link: "/network-refresh",
         },
         {
           name: "Tech Refresh",
-          link: "mspnet/tech-refresh",
+          link: "/tech-refresh",
         },
         {
           name: "HardWare Maintenance",
-          link: "mspnet/hardware-maintenance",
+          link: "/hardware-maintenance",
         },
         {
           name: "Network Migration",
-          link: "mspnet/network-migration",
+          link: "/network-migration",
         },
         {
           name: "Hardware Refresh",
-          link: "mspnet/hardware-refresh",
+          link: "/hardware-refresh",
         },
         {
           name: "SD WAN Solution",
-          link: "mspnet/sd-wan-sol",
+          link: "/sd-wan-sol",
         },
         {
           name: "Cloud Migration",
-          link: "mspnet/cloud-migration",
+          link: "/cloud-migration",
         },
       ],
     },
