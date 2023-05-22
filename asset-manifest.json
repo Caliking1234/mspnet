@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mspnet/static/css/main.0aefa0f3.css",
-    "main.js": "/mspnet/static/js/main.222a245f.js",
+    "main.js": "/mspnet/static/js/main.8a7a6b5a.js",
     "static/js/787.cda612ba.chunk.js": "/mspnet/static/js/787.cda612ba.chunk.js",
     "static/media/itImg.png": "/mspnet/static/media/itImg.b51dda06e513cbe2bfe0.png",
     "static/media/working.gif": "/mspnet/static/media/working.6f8616333f25cf366a6f.gif",
@@ -11,9 +11,15 @@
     "static/media/img.jpeg": "/mspnet/static/media/img.4af26e01531e0679eafd.jpeg",
     "static/media/SLIDE-2.jpg": "/mspnet/static/media/SLIDE-2.99ae82cebbc85b177d19.jpg",
     "static/media/itImg3.webp": "/mspnet/static/media/itImg3.dcc7d0f7781cd716fa41.webp",
+    "static/media/wan-optimization-feat.svg": "/mspnet/static/media/wan-optimization-feat.877a518611f8807c4074c5f6b993037b.svg",
+    "static/media/network-optimization-services-570x590-1.png": "/mspnet/static/media/network-optimization-services-570x590-1.f40dd956af3d95343ca6.png",
+    "static/media/refresh-network-feat.jpg": "/mspnet/static/media/refresh-network-feat.893635c8522910a1289d.jpg",
     "static/media/penetration-testing-570x687-1-249x300.png": "/mspnet/static/media/penetration-testing-570x687-1-249x300.29dda2dcbb3bb3c8dbc7.png",
     "static/media/network-security-mgmt-570x653-1-262x300.png": "/mspnet/static/media/network-security-mgmt-570x653-1-262x300.ee5051fef4335d3d8b0b.png",
     "static/media/malware-protection-feat.svg": "/mspnet/static/media/malware-protection-feat.1456db02f2e174f81644d11d03565b6e.svg",
+    "static/media/network-infrastructure-design-feat-1.svg": "/mspnet/static/media/network-infrastructure-design-feat-1.9f77ecbe15d2154c2fcd486f1eb614c6.svg",
+    "static/media/hardware-maintenance-feat.svg": "/mspnet/static/media/hardware-maintenance-feat.60c8215a1febbea4ea7a8f85e5ae3ae8.svg",
+    "static/media/tech-refresh-feat.svg": "/mspnet/static/media/tech-refresh-feat.da6d802ce85f94a6f879416b905e2e58.svg",
     "static/media/proactive-monitoring-alert-management-feat.svg": "/mspnet/static/media/proactive-monitoring-alert-management-feat.06af1339ca8c240cb58835166b739656.svg",
     "static/media/vulnerability-management-feat.svg": "/mspnet/static/media/vulnerability-management-feat.eb84db1e726fdcd1a8c1c3102a1d54b9.svg",
     "static/media/itImg2.avif": "/mspnet/static/media/itImg2.00b5fc4d0b570b225da7.avif",
@@ -27,8 +33,11 @@
     "static/media/it-business-management.svg": "/mspnet/static/media/it-business-management.8e690f813ffcf2678c20bd27d4b55a76.svg",
     "static/media/malware-protection.svg": "/mspnet/static/media/malware-protection.342575115e06c724b6a651c419d3e0c1.svg",
     "static/media/it-asset-management.svg": "/mspnet/static/media/it-asset-management.b3ac63be6097d8e18e826109b6b4d9cc.svg",
+    "static/media/icn-maximize-assets-2-ltbl-20.svg": "/mspnet/static/media/icn-maximize-assets-2-ltbl-20.ef366eea02ef47eb5b75ef825af030d8.svg",
+    "static/media/icn-global-tracking-ltbl-20.svg": "/mspnet/static/media/icn-global-tracking-ltbl-20.ace174a337c2e412b1fc33cba9a68e15.svg",
     "static/media/icn-expanded-vision-ltbl-20.svg": "/mspnet/static/media/icn-expanded-vision-ltbl-20.30b0c2e4f709fb3895ac07672deef446.svg",
     "static/media/icn-cir-expertise-ltbl-20.svg": "/mspnet/static/media/icn-cir-expertise-ltbl-20.b26638ed8802a8c00211ca4c0f0390c1.svg",
+    "static/media/icn-expertise-ltbl-20.svg": "/mspnet/static/media/icn-expertise-ltbl-20.cedbb738a90c64ea84b7a37ceed87862.svg",
     "static/media/icn-checklist-verified-ltbl-20.svg": "/mspnet/static/media/icn-checklist-verified-ltbl-20.5aaaca3b45f41624ecfbb78712c74189.svg",
     "static/media/icn-rocket-ltbl-20.svg": "/mspnet/static/media/icn-rocket-ltbl-20.f007bd5f8efb1fcb635ed679fd93b29d.svg",
     "static/media/slick.svg": "/mspnet/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -36,14 +45,17 @@
     "static/media/slick.eot": "/mspnet/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/mspnet/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/icn-report-analytics-verified-ltbl-20.svg": "/mspnet/static/media/icn-report-analytics-verified-ltbl-20.c693aaac8ccf4f42e620a552f4cc6e10.svg",
+    "static/media/icn-cir-strategy-ltbl-20.svg": "/mspnet/static/media/icn-cir-strategy-ltbl-20.9b9ffeec50a92415672c0c8f3c39c796.svg",
+    "static/media/icn-computer-control-ltbl-20.svg": "/mspnet/static/media/icn-computer-control-ltbl-20.fade974f799e45916c99ae21745015c5.svg",
     "static/media/slick.woff": "/mspnet/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/icn-increased-visiblity-ltbl-20.svg": "/mspnet/static/media/icn-increased-visiblity-ltbl-20.18f543826956e87979e33eecfd2e3996.svg",
     "index.html": "/mspnet/index.html",
     "main.0aefa0f3.css.map": "/mspnet/static/css/main.0aefa0f3.css.map",
-    "main.222a245f.js.map": "/mspnet/static/js/main.222a245f.js.map",
+    "main.8a7a6b5a.js.map": "/mspnet/static/js/main.8a7a6b5a.js.map",
     "787.cda612ba.chunk.js.map": "/mspnet/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0aefa0f3.css",
-    "static/js/main.222a245f.js"
+    "static/js/main.8a7a6b5a.js"
   ]
 }
