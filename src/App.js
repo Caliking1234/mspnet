@@ -20,6 +20,7 @@ import HardwareMaintenance from "./components/HardwareMaintenance";
 import NetworkMigration from "./components/NetworkMigration";
 import HardwareRefresh from "./components/HardwareRefresh";
 import SDWANSolutio from "./components/SDWANSolution";
+import CloudMigration from "./components/CloudMigration";
 function App() {
   return (
     <div className=" font-customised1">
@@ -93,6 +94,7 @@ function App() {
           />
           <Route path="/hardware-refresh" element={<HardwareRefresh />} exact />
           <Route path="/sd-wan-sol" element={<SDWANSolutio />} exact />
+          <Route path="/cloud-migration" element={<CloudMigration />} exact />
         </Routes>
       </Router>
     </div>
