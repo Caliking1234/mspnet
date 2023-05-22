@@ -21,6 +21,7 @@ import NetworkMigration from "./components/NetworkMigration";
 import HardwareRefresh from "./components/HardwareRefresh";
 import SDWANSolutio from "./components/SDWANSolution";
 import CloudMigration from "./components/CloudMigration";
+import ChatWithUS from "./components/ChatWithUS";
 function App() {
   return (
     <div className=" font-customised1">
@@ -97,6 +98,7 @@ function App() {
           <Route path="/cloud-migration" element={<CloudMigration />} exact />
         </Routes>
       </Router>
+      <ChatWithUS />
     </div>
   );
 }
