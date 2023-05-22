@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mspnet/static/css/main.0aefa0f3.css",
-    "main.js": "/mspnet/static/js/main.8a7a6b5a.js",
+    "main.css": "/mspnet/static/css/main.801a7ee3.css",
+    "main.js": "/mspnet/static/js/main.8ca51b3f.js",
     "static/js/787.cda612ba.chunk.js": "/mspnet/static/js/787.cda612ba.chunk.js",
     "static/media/itImg.png": "/mspnet/static/media/itImg.b51dda06e513cbe2bfe0.png",
     "static/media/working.gif": "/mspnet/static/media/working.6f8616333f25cf366a6f.gif",
@@ -21,6 +21,7 @@
     "static/media/hardware-maintenance-feat.svg": "/mspnet/static/media/hardware-maintenance-feat.60c8215a1febbea4ea7a8f85e5ae3ae8.svg",
     "static/media/tech-refresh-feat.svg": "/mspnet/static/media/tech-refresh-feat.da6d802ce85f94a6f879416b905e2e58.svg",
     "static/media/proactive-monitoring-alert-management-feat.svg": "/mspnet/static/media/proactive-monitoring-alert-management-feat.06af1339ca8c240cb58835166b739656.svg",
+    "static/media/hardware-refresh-feat-1.svg": "/mspnet/static/media/hardware-refresh-feat-1.ccf55e8a33d4167ca84156d473e0291c.svg",
     "static/media/vulnerability-management-feat.svg": "/mspnet/static/media/vulnerability-management-feat.eb84db1e726fdcd1a8c1c3102a1d54b9.svg",
     "static/media/itImg2.avif": "/mspnet/static/media/itImg2.00b5fc4d0b570b225da7.avif",
     "static/media/it-integration.png": "/mspnet/static/media/it-integration.ffd6c3c59103fec507e7.png",
@@ -29,6 +30,7 @@
     "static/media/Managed-IT-Security-Services.png": "/mspnet/static/media/Managed-IT-Security-Services.7780b9e0d80dab9005db.png",
     "static/media/manufacturing.jpg": "/mspnet/static/media/manufacturing.730d1d143d458596e82d.jpg",
     "static/media/network-migration-feat.svg": "/mspnet/static/media/network-migration-feat.8ea613a3675f2c2589ee3f3221ba0cc9.svg",
+    "static/media/sdwan-solution-feat.svg": "/mspnet/static/media/sdwan-solution-feat.534d3023d53fa6c9126782dc424e588f.svg",
     "static/media/IT-Security-Integration.png": "/mspnet/static/media/IT-Security-Integration.df7daecb398ef8a7dd98.png",
     "static/media/it-business-management.svg": "/mspnet/static/media/it-business-management.8e690f813ffcf2678c20bd27d4b55a76.svg",
     "static/media/malware-protection.svg": "/mspnet/static/media/malware-protection.342575115e06c724b6a651c419d3e0c1.svg",
@@ -50,12 +52,12 @@
     "static/media/slick.woff": "/mspnet/static/media/slick.295183786cd8a1389865.woff",
     "static/media/icn-increased-visiblity-ltbl-20.svg": "/mspnet/static/media/icn-increased-visiblity-ltbl-20.18f543826956e87979e33eecfd2e3996.svg",
     "index.html": "/mspnet/index.html",
-    "main.0aefa0f3.css.map": "/mspnet/static/css/main.0aefa0f3.css.map",
-    "main.8a7a6b5a.js.map": "/mspnet/static/js/main.8a7a6b5a.js.map",
+    "main.801a7ee3.css.map": "/mspnet/static/css/main.801a7ee3.css.map",
+    "main.8ca51b3f.js.map": "/mspnet/static/js/main.8ca51b3f.js.map",
     "787.cda612ba.chunk.js.map": "/mspnet/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0aefa0f3.css",
-    "static/js/main.8a7a6b5a.js"
+    "static/css/main.801a7ee3.css",
+    "static/js/main.8ca51b3f.js"
   ]
 }
