@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mspnet/static/css/main.801a7ee3.css",
-    "main.js": "/mspnet/static/js/main.c77c11bc.js",
+    "main.css": "/mspnet/static/css/main.5ddb5a9e.css",
+    "main.js": "/mspnet/static/js/main.935977e4.js",
     "static/js/787.cda612ba.chunk.js": "/mspnet/static/js/787.cda612ba.chunk.js",
     "static/media/itImg.png": "/mspnet/static/media/itImg.b51dda06e513cbe2bfe0.png",
     "static/media/working.gif": "/mspnet/static/media/working.6f8616333f25cf366a6f.gif",
@@ -11,6 +11,7 @@
     "static/media/img.jpeg": "/mspnet/static/media/img.4af26e01531e0679eafd.jpeg",
     "static/media/SLIDE-2.jpg": "/mspnet/static/media/SLIDE-2.99ae82cebbc85b177d19.jpg",
     "static/media/itImg3.webp": "/mspnet/static/media/itImg3.dcc7d0f7781cd716fa41.webp",
+    "static/media/WhatsApp.svg.png": "/mspnet/static/media/WhatsApp.svg.d7edcdced07246bd7e3e.png",
     "static/media/wan-optimization-feat.svg": "/mspnet/static/media/wan-optimization-feat.877a518611f8807c4074c5f6b993037b.svg",
     "static/media/network-optimization-services-570x590-1.png": "/mspnet/static/media/network-optimization-services-570x590-1.f40dd956af3d95343ca6.png",
     "static/media/refresh-network-feat.jpg": "/mspnet/static/media/refresh-network-feat.893635c8522910a1289d.jpg",
@@ -58,12 +59,12 @@
     "static/media/slick.woff": "/mspnet/static/media/slick.295183786cd8a1389865.woff",
     "static/media/icn-increased-visiblity-ltbl-20.svg": "/mspnet/static/media/icn-increased-visiblity-ltbl-20.18f543826956e87979e33eecfd2e3996.svg",
     "index.html": "/mspnet/index.html",
-    "main.801a7ee3.css.map": "/mspnet/static/css/main.801a7ee3.css.map",
-    "main.c77c11bc.js.map": "/mspnet/static/js/main.c77c11bc.js.map",
+    "main.5ddb5a9e.css.map": "/mspnet/static/css/main.5ddb5a9e.css.map",
+    "main.935977e4.js.map": "/mspnet/static/js/main.935977e4.js.map",
     "787.cda612ba.chunk.js.map": "/mspnet/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.801a7ee3.css",
-    "static/js/main.c77c11bc.js"
+    "static/css/main.5ddb5a9e.css",
+    "static/js/main.935977e4.js"
   ]
 }
