@@ -22,6 +22,7 @@ import HardwareRefresh from "./components/HardwareRefresh";
 import SDWANSolutio from "./components/SDWANSolution";
 import CloudMigration from "./components/CloudMigration";
 import ChatWithUS from "./components/ChatWithUS";
+import ITConsultancy from "./components/ITConsultancy";
 function App() {
   return (
     <div className=" font-customised1">
@@ -96,6 +97,7 @@ function App() {
           <Route path="/hardware-refresh" element={<HardwareRefresh />} exact />
           <Route path="/sd-wan-sol" element={<SDWANSolutio />} exact />
           <Route path="/cloud-migration" element={<CloudMigration />} exact />
+          <Route path="/it-constancy" element={<ITConsultancy />} exact />
         </Routes>
       </Router>
       <ChatWithUS />

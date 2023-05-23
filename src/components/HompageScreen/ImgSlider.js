@@ -14,6 +14,7 @@ import img from "../../images/img.jpeg";
 import Slide1 from "../../images/SLIDE-1.jpg";
 import Slide2 from "../../images/SLIDE-2.jpg";
 import Slide3 from "../../images/SLIDE-3.jpg";
+import { Link } from "react-router-dom";
 
 // import { Carousel, Wrap } from "./components/style";
 // import { Carousel, Wrap } from './style';
@@ -80,7 +81,7 @@ const ImgSlider = () => {
     }
   `;
   return (
-    <div className="mt-[80px]">
+    <div className="mt-[90px]">
       <Carousel {...settings} className=" -z-0">
         <Wrap className="relative">
           <div className=" absolute top-[10%] translate-x-[-10%] left-[10%] text-white w-64 text-center">
@@ -93,7 +94,7 @@ const ImgSlider = () => {
               </p>
             </div>
             <button className=" my-5 text-white bg-black  px-5 py-2 rounded-md">
-              Click Here
+              <Link to="/it-constancy">Click Here</Link>
             </button>
           </div>
           <img src={Slide1} alt="badag" />
