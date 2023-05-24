@@ -34,6 +34,10 @@ import SDSEcurityServices from "./components/SDSEcurityServices";
 import SDWANRequirements from "./components/SDWANRequirements";
 import SDWANArchitecture from "./components/SDWANArchitecture";
 import SupplierManagement from "./components/SupplierManagement";
+import EducationCaseStudy from "./components/EducationCaseStudy";
+import HealthcareCaseStudy from "./components/HealthcareCaseStudy";
+import HospitalityCaseStudy from "./components/HospitalityCaseStudy";
+import ManufacturingCaseStudy from "./components/ManufacturingCaseStudy";
 function App() {
   return (
     <div className=" font-customised1">
@@ -163,6 +167,14 @@ function App() {
           <Route
             path="/supplier-management"
             element={<SupplierManagement />}
+            exact
+          />
+          <Route path="/education" element={<EducationCaseStudy />} exact />
+          <Route path="/healthcare" element={<HealthcareCaseStudy />} exact />
+          <Route path="/hospitality" element={<HospitalityCaseStudy />} exact />
+          <Route
+            path="/manufacturing"
+            element={<ManufacturingCaseStudy />}
             exact
           />
         </Routes>
