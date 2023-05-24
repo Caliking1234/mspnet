@@ -51,7 +51,7 @@ const IntegratedSection1 = () => {
         </h1>
         <div className="flex flex-col sm:flex-row">
           <div className=" w-[80%] pl-6 md:pl-0 md:w-1/2  mx-auto text-gray-500 py-10 flex flex-col justify-center md:items-start">
-            <h1 className=" text-xlpy-3">
+            <h1 className=" text-xl py-3">
               MSP Network Operations Center Will:
             </h1>
             <div className=" flex flex-row py-3">

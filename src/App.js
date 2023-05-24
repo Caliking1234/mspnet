@@ -28,6 +28,7 @@ import ManagedITServices from "./components/ManagedITServices";
 import BreakFix from "./components/BreakFix";
 import GlobalOperationCenter from "./components/GlobalOperationCenter";
 import EnterpriseNetworking from "./components/EnterpriseNetworking";
+import MSSP from "./components/MSSP";
 function App() {
   return (
     <div className=" font-customised1">
@@ -122,6 +123,11 @@ function App() {
           <Route
             path="/enterprise-networking"
             element={<EnterpriseNetworking />}
+            exact
+          />
+          <Route
+            path="/mssp-managed-security-service"
+            element={<MSSP />}
             exact
           />
         </Routes>

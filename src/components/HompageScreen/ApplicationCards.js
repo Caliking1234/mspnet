@@ -41,12 +41,15 @@ const ApplicationCards = () => {
             </i>
             <h2>Enterprise Networking</h2>
           </Link>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          <Link
+            to="/mssp-managed-security-service"
+            className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl"
+          >
             <i>
               <SignalCellularAltIcon fontSize="large" />
             </i>
             <h2>MSSP</h2>
-          </div>
+          </Link>
         </div>
       </div>
       <div className=" my-10  text-[rgba(16,44,81,255)]">
