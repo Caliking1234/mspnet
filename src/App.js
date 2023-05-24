@@ -23,6 +23,11 @@ import SDWANSolutio from "./components/SDWANSolution";
 import CloudMigration from "./components/CloudMigration";
 import ChatWithUS from "./components/ChatWithUS";
 import ITConsultancy from "./components/ITConsultancy";
+import SDWANConsultancy from "./components/SDWANConsultancy";
+import ManagedITServices from "./components/ManagedITServices";
+import BreakFix from "./components/BreakFix";
+import GlobalOperationCenter from "./components/GlobalOperationCenter";
+import EnterpriseNetworking from "./components/EnterpriseNetworking";
 function App() {
   return (
     <div className=" font-customised1">
@@ -98,6 +103,27 @@ function App() {
           <Route path="/sd-wan-sol" element={<SDWANSolutio />} exact />
           <Route path="/cloud-migration" element={<CloudMigration />} exact />
           <Route path="/it-constancy" element={<ITConsultancy />} exact />
+          <Route
+            path="/sd-wan-consultancy-services"
+            element={<SDWANConsultancy />}
+            exact
+          />
+          <Route
+            path="/managed-services"
+            element={<ManagedITServices />}
+            exact
+          />
+          <Route path="/break-fix" element={<BreakFix />} exact />
+          <Route
+            path="/global-operation-center"
+            element={<GlobalOperationCenter />}
+            exact
+          />
+          <Route
+            path="/enterprise-networking"
+            element={<EnterpriseNetworking />}
+            exact
+          />
         </Routes>
       </Router>
       <ChatWithUS />

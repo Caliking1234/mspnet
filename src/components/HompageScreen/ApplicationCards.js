@@ -32,12 +32,15 @@ const ApplicationCards = () => {
               <h2>Meraki Wireless</h2>
             </div>
           </div>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          <Link
+            to="/enterprise-networking"
+            className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl"
+          >
             <i>
               <LanguageIcon fontSize="large" />
             </i>
             <h2>Enterprise Networking</h2>
-          </div>
+          </Link>
           <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
             <i>
               <SignalCellularAltIcon fontSize="large" />
@@ -60,13 +63,19 @@ const ApplicationCards = () => {
               <h2>Testing</h2>
             </div>
           </Link>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          <Link
+            to="/it-constancy"
+            className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl"
+          >
             <i>
               <LockIcon fontSize="large" />
             </i>
             <h2>IT Consultancy</h2>
-          </div>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          </Link>
+          <Link
+            to="/global-operation-center"
+            className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl"
+          >
             <i>
               <HubIcon fontSize="large" />
             </i>
@@ -74,24 +83,33 @@ const ApplicationCards = () => {
               <h2>Global Operation</h2>
               <h2>Center</h2>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
       <div className=" my-10  text-[rgba(16,44,81,255)]">
         <div className=" w-full h-fit flex flex-col gap-5 md:gap-14 my-5 px-4 justify-center items-center md:flex-row">
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          <Link
+            to="/penetration-testing"
+            className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl"
+          >
             <i>
               <ArchitectureIcon fontSize="large" />
             </i>
             <h2>IT Integration</h2>
-          </div>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          </Link>
+          <Link
+            to="/sd-wan-consultancy-services"
+            className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl"
+          >
             <i>
               <LockIcon fontSize="large" />
             </i>
             <h2>Cisco sdwan</h2>
-          </div>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl">
+          </Link>
+          <Link
+            to="/sd-wan-consultancy-services"
+            className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300 lg:text-2xl"
+          >
             <i>
               <HubIcon fontSize="large" />
             </i>
@@ -99,7 +117,7 @@ const ApplicationCards = () => {
               <h2>Palo Alto</h2>
               <h2>sdwan</h2>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>
