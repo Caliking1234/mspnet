@@ -60,15 +60,21 @@ const SDConsultancySEction1 = () => {
           </Link>
         </div>
         <div className=" flex md:flex-row flex-col gap-5">
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300  lg:text-2xl">
+          <Link
+            to="/sd-wan-sase-architecture"
+            className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300  lg:text-2xl"
+          >
             <i>
               <ArchitectureIcon fontSize="large" />
             </i>
             <div>
               <h2>Architectre & Design</h2>
             </div>
-          </div>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300  lg:text-2xl">
+          </Link>
+          <Link
+            to="/cybersecurity-and-risk-transformation-services"
+            className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300  lg:text-2xl"
+          >
             <i>
               <LockIcon fontSize="large" />
             </i>
@@ -76,15 +82,18 @@ const SDConsultancySEction1 = () => {
               <h2>Cyber Security &</h2>
               <h2>Risk Transformation</h2>
             </div>
-          </div>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300  lg:text-2xl">
+          </Link>
+          <Link
+            to="/supplier-management"
+            className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300  lg:text-2xl"
+          >
             <i>
               <HubIcon fontSize="large" />
             </i>
             <div>
               <h2>Supplier Managment</h2>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

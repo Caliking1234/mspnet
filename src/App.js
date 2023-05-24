@@ -32,6 +32,8 @@ import MSSP from "./components/MSSP";
 import SDWANImplementation from "./components/SDWANImplementation";
 import SDSEcurityServices from "./components/SDSEcurityServices";
 import SDWANRequirements from "./components/SDWANRequirements";
+import SDWANArchitecture from "./components/SDWANArchitecture";
+import SupplierManagement from "./components/SupplierManagement";
 function App() {
   return (
     <div className=" font-customised1">
@@ -146,6 +148,21 @@ function App() {
           <Route
             path="/sd-wan-requirements"
             element={<SDWANRequirements />}
+            exact
+          />
+          <Route
+            path="/sd-wan-sase-architecture"
+            element={<SDWANArchitecture />}
+            exact
+          />
+          <Route
+            path="/cybersecurity-and-risk-transformation-services"
+            element={<SDWANArchitecture />}
+            exact
+          />
+          <Route
+            path="/supplier-management"
+            element={<SupplierManagement />}
             exact
           />
         </Routes>
