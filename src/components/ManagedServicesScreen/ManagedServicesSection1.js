@@ -100,7 +100,7 @@ const ManagedServicesSection1 = () => {
               <div>-</div>
               <div className=" text-gray-500">
                 One point of contact – in the event of failure, the customer
-                contacts only Comarch
+                contacts only MSPNET
               </div>
             </div>
           </div>
