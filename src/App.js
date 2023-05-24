@@ -29,6 +29,9 @@ import BreakFix from "./components/BreakFix";
 import GlobalOperationCenter from "./components/GlobalOperationCenter";
 import EnterpriseNetworking from "./components/EnterpriseNetworking";
 import MSSP from "./components/MSSP";
+import SDWANImplementation from "./components/SDWANImplementation";
+import SDSEcurityServices from "./components/SDSEcurityServices";
+import SDWANRequirements from "./components/SDWANRequirements";
 function App() {
   return (
     <div className=" font-customised1">
@@ -128,6 +131,21 @@ function App() {
           <Route
             path="/mssp-managed-security-service"
             element={<MSSP />}
+            exact
+          />
+          <Route
+            path="/sd-wan-implementation"
+            element={<SDWANImplementation />}
+            exact
+          />
+          <Route
+            path="/sd-wan-security-services"
+            element={<SDSEcurityServices />}
+            exact
+          />
+          <Route
+            path="/sd-wan-requirements"
+            element={<SDWANRequirements />}
             exact
           />
         </Routes>

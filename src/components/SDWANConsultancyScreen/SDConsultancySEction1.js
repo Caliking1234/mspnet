@@ -5,6 +5,7 @@ import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
 import ArchitectureIcon from "@mui/icons-material/Architecture";
 import LockIcon from "@mui/icons-material/Lock";
 import HubIcon from "@mui/icons-material/Hub";
+import { Link } from "react-router-dom";
 
 const SDConsultancySEction1 = () => {
   return (
@@ -22,15 +23,21 @@ const SDConsultancySEction1 = () => {
           How We Help You Build A Better WAN ?
         </h1>
         <div className=" flex md:flex-row flex-col gap-5">
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300  lg:text-2xl">
+          <Link
+            to="/sd-wan-implementation"
+            className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300  lg:text-2xl"
+          >
             <i>
               <ConstructionIcon fontSize="large" />
             </i>
             <div>
               <h2>Implementation</h2>
             </div>
-          </div>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300  lg:text-2xl">
+          </Link>
+          <Link
+            to="/sd-wan-security-services"
+            className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300  lg:text-2xl"
+          >
             <i>
               <LanguageIcon fontSize="large" />
             </i>
@@ -38,8 +45,11 @@ const SDConsultancySEction1 = () => {
               <h2>SD-WAN & SASE</h2>
               <h2>Sourcing</h2>
             </div>
-          </div>
-          <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300  lg:text-2xl">
+          </Link>
+          <Link
+            to="/sd-wan-requirements"
+            className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300  lg:text-2xl"
+          >
             <i>
               <SignalCellularAltIcon fontSize="large" />
             </i>
@@ -47,7 +57,7 @@ const SDConsultancySEction1 = () => {
               <h2>Requirements</h2>
               <h2>Assessment</h2>
             </div>
-          </div>
+          </Link>
         </div>
         <div className=" flex md:flex-row flex-col gap-5">
           <div className=" w-72 md:w-50 h-40 flex flex-col items-center justify-evenly rounded-md shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 transition-all duration-300 delay-100 bg-gradient-to-r from-white to-gray-300  lg:text-2xl">
