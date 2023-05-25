@@ -27,7 +27,7 @@ const CaseStudy = () => {
           <p className=" mt-5">Healthcare</p>
         </Link>
         <Link
-          to="hospitality"
+          to="/hospitality"
           className=" text-center text-xl text-blue-500 py-5"
         >
           <img className=" w-[280px] h-[160px]" src={Hospitality} />
