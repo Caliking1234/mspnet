@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mspnet/static/css/main.fa24215f.css",
-    "main.js": "/mspnet/static/js/main.da426660.js",
+    "main.js": "/mspnet/static/js/main.54e1f2a9.js",
     "static/js/787.cda612ba.chunk.js": "/mspnet/static/js/787.cda612ba.chunk.js",
     "static/media/itImg.png": "/mspnet/static/media/itImg.b51dda06e513cbe2bfe0.png",
     "static/media/working.gif": "/mspnet/static/media/working.6f8616333f25cf366a6f.gif",
@@ -59,6 +59,7 @@
     "static/media/icn-award-dkbl-20.svg": "/mspnet/static/media/icn-award-dkbl-20.1fd5afe4fb769eaa00b979ce12538e6a.svg",
     "static/media/icn-rocket-ltbl-20.svg": "/mspnet/static/media/icn-rocket-ltbl-20.f007bd5f8efb1fcb635ed679fd93b29d.svg",
     "static/media/icn-growth-bars-ltbl-20.svg": "/mspnet/static/media/icn-growth-bars-ltbl-20.f7021071c7d2beddde60aa79289f0a37.svg",
+    "static/media/icn-rocket-dkbl-20.svg": "/mspnet/static/media/icn-rocket-dkbl-20.0596124a050c7b0c76dd6d70bd255193.svg",
     "static/media/icn-business-champion-dkbl-20.svg": "/mspnet/static/media/icn-business-champion-dkbl-20.314462aa5e48b1da8768b72ff946cdaa.svg",
     "static/media/slick.svg": "/mspnet/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/icn-expert-ltbl-20.svg": "/mspnet/static/media/icn-expert-ltbl-20.47b015ed94edb6c8134f790342c4b55a.svg",
@@ -66,9 +67,12 @@
     "static/media/icn-satisfied-th-dkbl-20.svg": "/mspnet/static/media/icn-satisfied-th-dkbl-20.c2a5d6e12ea0c95fc81d3a1f714c102b.svg",
     "static/media/icn-gobal-budgets-ltbl-20.svg": "/mspnet/static/media/icn-gobal-budgets-ltbl-20.2fc2b2673d65199c2777a15c21348163.svg",
     "static/media/slick.ttf": "/mspnet/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/icn-growth-bars-dkbl-20.svg": "/mspnet/static/media/icn-growth-bars-dkbl-20.3ed37bcd71d3b05327af4462dd64cbc3.svg",
     "static/media/icn-report-analytics-verified-ltbl-20.svg": "/mspnet/static/media/icn-report-analytics-verified-ltbl-20.c693aaac8ccf4f42e620a552f4cc6e10.svg",
     "static/media/icn-cir-strategy-ltbl-20.svg": "/mspnet/static/media/icn-cir-strategy-ltbl-20.9b9ffeec50a92415672c0c8f3c39c796.svg",
     "static/media/icn-computer-control-ltbl-20.svg": "/mspnet/static/media/icn-computer-control-ltbl-20.fade974f799e45916c99ae21745015c5.svg",
+    "static/media/icn-strategy-dkbl-20.svg": "/mspnet/static/media/icn-strategy-dkbl-20.af700951e1243283d2b74de6c12de350.svg",
+    "static/media/icn-shield-security-dkbl-20.svg": "/mspnet/static/media/icn-shield-security-dkbl-20.daf29a88b37e925ae520f7124ff81d92.svg",
     "static/media/icn-contracts-dkbl-20.svg": "/mspnet/static/media/icn-contracts-dkbl-20.74b5bd04bea75db799b20fb82dc5c68e.svg",
     "static/media/icn-cycle-satisfaction-ltbl-20.svg": "/mspnet/static/media/icn-cycle-satisfaction-ltbl-20.7df6e752b2c19401b7c1bc9cc330099a.svg",
     "static/media/slick.woff": "/mspnet/static/media/slick.295183786cd8a1389865.woff",
@@ -77,11 +81,11 @@
     "static/media/icn-check-dkbl-20.svg": "/mspnet/static/media/icn-check-dkbl-20.947b314a4af5cf68b1c4ce059329b83a.svg",
     "static/media/icn-growth-2-dkbl-20.svg": "/mspnet/static/media/icn-growth-2-dkbl-20.ad92036b4a09e7b5d26e5aea813f56f7.svg",
     "main.fa24215f.css.map": "/mspnet/static/css/main.fa24215f.css.map",
-    "main.da426660.js.map": "/mspnet/static/js/main.da426660.js.map",
+    "main.54e1f2a9.js.map": "/mspnet/static/js/main.54e1f2a9.js.map",
     "787.cda612ba.chunk.js.map": "/mspnet/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa24215f.css",
-    "static/js/main.da426660.js"
+    "static/js/main.54e1f2a9.js"
   ]
 }
