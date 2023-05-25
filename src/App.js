@@ -42,6 +42,8 @@ import ITNEtworkProject from "./components/ITNEtworkProject";
 import ITMigrationProjecct from "./components/ITMigrationProjecct";
 import ITArchitectureProject from "./components/ITArchitectureProject";
 import SystemMigration from "./components/SystemMigration";
+import ITSecurityProject from "./components/ITSecurityProject";
+import RiskSecurityManagement from "./components/RiskSecurityManagement";
 function App() {
   return (
     <div className=" font-customised1">
@@ -193,8 +195,18 @@ function App() {
             exact
           />
           <Route
+            path="/it-security-project"
+            element={<ITSecurityProject />}
+            exact
+          />
+          <Route
             path="/it-architecture-project"
             element={<ITArchitectureProject />}
+            exact
+          />
+          <Route
+            path="/it-risk-security-management"
+            element={<RiskSecurityManagement />}
             exact
           />
         </Routes>

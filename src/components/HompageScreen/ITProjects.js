@@ -69,9 +69,11 @@ const ITProjects = () => {
                 industry’s most effective tools to help your organization
                 tighten its security while maximizing productivity.
               </p>
-              <button className=" w-28 h-10 text-white border-2 border-solid border-white rounded-md">
-                Learn More
-              </button>
+              <Link to="/it-security-project">
+                <button className=" w-28 h-10 text-white border-2 border-solid border-white rounded-md">
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
