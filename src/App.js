@@ -38,6 +38,9 @@ import EducationCaseStudy from "./components/EducationCaseStudy";
 import HealthcareCaseStudy from "./components/HealthcareCaseStudy";
 import HospitalityCaseStudy from "./components/HospitalityCaseStudy";
 import ManufacturingCaseStudy from "./components/ManufacturingCaseStudy";
+import ITNEtworkProject from "./components/ITNEtworkProject";
+import ITMigrationProjecct from "./components/ITMigrationProjecct";
+import ITArchitectureProject from "./components/ITArchitectureProject";
 function App() {
   return (
     <div className=" font-customised1">
@@ -175,6 +178,21 @@ function App() {
           <Route
             path="/manufacturing"
             element={<ManufacturingCaseStudy />}
+            exact
+          />
+          <Route
+            path="/it-network-project"
+            element={<ITNEtworkProject />}
+            exact
+          />
+          <Route
+            path="/it-migration-project"
+            element={<ITMigrationProjecct />}
+            exact
+          />
+          <Route
+            path="/it-architecture-project"
+            element={<ITArchitectureProject />}
             exact
           />
         </Routes>

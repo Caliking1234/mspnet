@@ -6,6 +6,7 @@ import Img3 from "../../images/it-integration.png";
 import Img4 from "../../images/it-integration-benefits.png";
 import Img5 from "../../images/IT-Security-Auditing.png";
 import Img6 from "../../images/IT-Security-Integration.png";
+import { Link } from "react-router-dom";
 
 const ITProjects = () => {
   return (
@@ -27,9 +28,11 @@ const ITProjects = () => {
                 and aligned with the needs of your unique business demands,
                 always taking advantage of the latest innovations
               </p>
-              <button className=" w-28 h-10 text-white border-2 border-solid border-white rounded-md">
-                Learn More
-              </button>
+              <Link to="/it-network-project">
+                <button className=" w-28 h-10 text-white border-2 border-solid border-white rounded-md">
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -46,9 +49,11 @@ const ITProjects = () => {
                 we tie into customized plans to ensure your migrations go
                 smoothly without disruptions or downtime.
               </p>
-              <button className=" w-28 h-10 text-white border-2 border-solid border-white rounded-md">
-                Learn More
-              </button>
+              <Link to="/it-migration-project">
+                <button className=" w-28 h-10 text-white border-2 border-solid border-white rounded-md">
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -101,9 +106,11 @@ const ITProjects = () => {
                 Your IT Infrastructure is responsible for holding your business
                 up? Is it strong enough?
               </p>
-              <button className=" w-28 h-10 text-white border-2 border-solid border-white rounded-md">
-                Learn More
-              </button>
+              <Link to="/it-constancy">
+                <button className=" w-28 h-10 text-white border-2 border-solid border-white rounded-md">
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -118,9 +125,11 @@ const ITProjects = () => {
                 Gain valuable insights, strategies and roadmaps from Enterprise
                 Architects consistently on the forefront on innovation of IT.
               </p>
-              <button className=" w-28 h-10 text-white border-2 border-solid border-white rounded-md">
-                Learn More
-              </button>
+              <Link to="/it-architecture-project">
+                <button className=" w-28 h-10 text-white border-2 border-solid border-white rounded-md">
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
