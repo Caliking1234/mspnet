@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mspnet/static/css/main.fa24215f.css",
-    "main.js": "/mspnet/static/js/main.54e1f2a9.js",
+    "main.js": "/mspnet/static/js/main.a715c39b.js",
     "static/js/787.cda612ba.chunk.js": "/mspnet/static/js/787.cda612ba.chunk.js",
     "static/media/itImg.png": "/mspnet/static/media/itImg.b51dda06e513cbe2bfe0.png",
     "static/media/working.gif": "/mspnet/static/media/working.6f8616333f25cf366a6f.gif",
@@ -81,11 +81,11 @@
     "static/media/icn-check-dkbl-20.svg": "/mspnet/static/media/icn-check-dkbl-20.947b314a4af5cf68b1c4ce059329b83a.svg",
     "static/media/icn-growth-2-dkbl-20.svg": "/mspnet/static/media/icn-growth-2-dkbl-20.ad92036b4a09e7b5d26e5aea813f56f7.svg",
     "main.fa24215f.css.map": "/mspnet/static/css/main.fa24215f.css.map",
-    "main.54e1f2a9.js.map": "/mspnet/static/js/main.54e1f2a9.js.map",
+    "main.a715c39b.js.map": "/mspnet/static/js/main.a715c39b.js.map",
     "787.cda612ba.chunk.js.map": "/mspnet/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa24215f.css",
-    "static/js/main.54e1f2a9.js"
+    "static/js/main.a715c39b.js"
   ]
 }
