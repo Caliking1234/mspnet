@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mspnet/static/css/main.589634ee.css",
-    "main.js": "/mspnet/static/js/main.00475671.js",
+    "main.css": "/mspnet/static/css/main.fa24215f.css",
+    "main.js": "/mspnet/static/js/main.da426660.js",
     "static/js/787.cda612ba.chunk.js": "/mspnet/static/js/787.cda612ba.chunk.js",
     "static/media/itImg.png": "/mspnet/static/media/itImg.b51dda06e513cbe2bfe0.png",
     "static/media/working.gif": "/mspnet/static/media/working.6f8616333f25cf366a6f.gif",
@@ -37,6 +37,7 @@
     "static/media/aws-migration-feat.svg": "/mspnet/static/media/aws-migration-feat.c274ef6ea08186aefec046e43d8a8799.svg",
     "static/media/network-lifecycle-management-feat.svg": "/mspnet/static/media/network-lifecycle-management-feat.9d4a1b2d48760871e1deca810f1d14bb.svg",
     "static/media/network-managed-services-benefits.png": "/mspnet/static/media/network-managed-services-benefits.2b89c9906193629ad140.png",
+    "static/media/Managed-IT-Security-Services-1.png": "/mspnet/static/media/Managed-IT-Security-Services-1.7780b9e0d80dab9005db.png",
     "static/media/Managed-IT-Security-Services.png": "/mspnet/static/media/Managed-IT-Security-Services.7780b9e0d80dab9005db.png",
     "static/media/manufacturing.jpg": "/mspnet/static/media/manufacturing.730d1d143d458596e82d.jpg",
     "static/media/network-migration-feat.svg": "/mspnet/static/media/network-migration-feat.8ea613a3675f2c2589ee3f3221ba0cc9.svg",
@@ -44,6 +45,7 @@
     "static/media/IT-Security-Integration.png": "/mspnet/static/media/IT-Security-Integration.df7daecb398ef8a7dd98.png",
     "static/media/it-business-management.svg": "/mspnet/static/media/it-business-management.8e690f813ffcf2678c20bd27d4b55a76.svg",
     "static/media/malware-protection.svg": "/mspnet/static/media/malware-protection.342575115e06c724b6a651c419d3e0c1.svg",
+    "static/media/system-micration-feat.svg": "/mspnet/static/media/system-micration-feat.a2b8ef09e9984c214eb716f713df6f48.svg",
     "static/media/it-asset-management.svg": "/mspnet/static/media/it-asset-management.b3ac63be6097d8e18e826109b6b4d9cc.svg",
     "static/media/icn-maximize-assets-2-ltbl-20.svg": "/mspnet/static/media/icn-maximize-assets-2-ltbl-20.ef366eea02ef47eb5b75ef825af030d8.svg",
     "static/media/icn-global-tracking-ltbl-20.svg": "/mspnet/static/media/icn-global-tracking-ltbl-20.ace174a337c2e412b1fc33cba9a68e15.svg",
@@ -74,12 +76,12 @@
     "index.html": "/mspnet/index.html",
     "static/media/icn-check-dkbl-20.svg": "/mspnet/static/media/icn-check-dkbl-20.947b314a4af5cf68b1c4ce059329b83a.svg",
     "static/media/icn-growth-2-dkbl-20.svg": "/mspnet/static/media/icn-growth-2-dkbl-20.ad92036b4a09e7b5d26e5aea813f56f7.svg",
-    "main.589634ee.css.map": "/mspnet/static/css/main.589634ee.css.map",
-    "main.00475671.js.map": "/mspnet/static/js/main.00475671.js.map",
+    "main.fa24215f.css.map": "/mspnet/static/css/main.fa24215f.css.map",
+    "main.da426660.js.map": "/mspnet/static/js/main.da426660.js.map",
     "787.cda612ba.chunk.js.map": "/mspnet/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.589634ee.css",
-    "static/js/main.00475671.js"
+    "static/css/main.fa24215f.css",
+    "static/js/main.da426660.js"
   ]
 }
