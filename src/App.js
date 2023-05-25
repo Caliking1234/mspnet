@@ -41,6 +41,7 @@ import ManufacturingCaseStudy from "./components/ManufacturingCaseStudy";
 import ITNEtworkProject from "./components/ITNEtworkProject";
 import ITMigrationProjecct from "./components/ITMigrationProjecct";
 import ITArchitectureProject from "./components/ITArchitectureProject";
+import SystemMigration from "./components/SystemMigration";
 function App() {
   return (
     <div className=" font-customised1">
@@ -100,6 +101,7 @@ function App() {
             exact
           />
           <Route path="/wan-optimization" element={<WanOptimization />} exact />
+          <Route path="/system-migration" element={<SystemMigration />} exact />
           <Route path="/network-refresh" element={<NetworkRefresh />} exact />
           <Route path="/tech-refresh" element={<TechRefresh />} exact />
           <Route
