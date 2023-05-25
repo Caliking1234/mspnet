@@ -44,6 +44,7 @@ import ITArchitectureProject from "./components/ITArchitectureProject";
 import SystemMigration from "./components/SystemMigration";
 import ITSecurityProject from "./components/ITSecurityProject";
 import RiskSecurityManagement from "./components/RiskSecurityManagement";
+import ITInfrastructureProject from "./components/ITInfrastructureProject";
 function App() {
   return (
     <div className=" font-customised1">
@@ -207,6 +208,11 @@ function App() {
           <Route
             path="/it-risk-security-management"
             element={<RiskSecurityManagement />}
+            exact
+          />
+          <Route
+            path="/it-infrastructure-project"
+            element={<ITInfrastructureProject />}
             exact
           />
         </Routes>

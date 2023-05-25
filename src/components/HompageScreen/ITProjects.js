@@ -108,7 +108,7 @@ const ITProjects = () => {
                 Your IT Infrastructure is responsible for holding your business
                 up? Is it strong enough?
               </p>
-              <Link to="/it-constancy">
+              <Link to="/it-infrastructure-project">
                 <button className=" w-28 h-10 text-white border-2 border-solid border-white rounded-md">
                   Learn More
                 </button>
