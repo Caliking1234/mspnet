@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import DropDown from "./HompageScreen/DropDown";
-import Accordian from "./Accordianss";
+import Accordions from "./HompageScreen/Accordians";
+import Accordions2 from "./HompageScreen/Accordians2";
 
 const Navbar = () => {
   const [navOpen, setnavOpen] = useState(false);
@@ -57,7 +58,7 @@ const Navbar = () => {
       title: "IT Project Services",
       module: [
         {
-          name: "Network Infrastructure Design",
+          name: "Network Infrastructure",
           link: "/network-infrastructure-design",
         },
         {
@@ -114,21 +115,22 @@ const Navbar = () => {
           <h1 className=" text-3xl sm:text-5xl font-extrabold">MSPNET</h1>
         </span>
       </div>
-      <nav className=" flex w-[100%] justify-items-center">
+      <nav className=" flex w-[100%] justify-center items-center">
         <ul className=" hidden md:flex md:items-center md:relative md:top-0 md:left-0 md:w-[100%] md:text-xs lg:text-sm ">
-          <li className=" my-3 mx-3 py-3 px-2 w-fit hover:text-gray-500  transition-all duration-300 cursor-pointer text-center">
+          <li className=" my-3 mx-3 py-3 px-2 w-fit hover:text-blue-300  transition-all duration-300 cursor-pointer text-center">
             <Link to="/mspnet">Home</Link>
           </li>
           {List1.map((item, index) => {
             return (
               <li
                 key={index}
-                className=" my-3 mx-3 py-3 px-2 w-fit hover:text-gray-500  transition-all duration-300 cursor-pointer text-center"
+                className=" my-3 py-3 px-2 w-full hover:text-blue-300  transition-all duration-300 cursor-pointer text-center"
               >
                 <DropDown title={item.title} list1={item.module} />
               </li>
             );
           })}
+          {/* <Accordions2 /> */}
         </ul>
         <ul
           className={
@@ -140,16 +142,17 @@ const Navbar = () => {
           <li className=" mx-auto my-2 py-3 px-4 w-fit ">
             <Link to="/mspnet">Home</Link>
           </li>
-          {List1.map((item, index) => {
+          {/* {List1.map((item, index) => {
             return (
               <li
                 key={index}
-                className=" my-2 mx-auto h-fit py-3 px-2 w-fit hover:text-gray-500  transition-all duration-300 cursor-pointer text-center"
+                className=" my-2 mx-auto h-fit py-3 px-2 w-fit text-xs hover:text-gray-500  transition-all duration-300 cursor-pointer text-center"
               >
                 <DropDown title={item.title} list1={item.module} />
               </li>
             );
-          })}
+          })} */}
+          <Accordions />
         </ul>
         <div
           onClick={handelnav}
