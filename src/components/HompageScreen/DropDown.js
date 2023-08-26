@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
@@ -11,10 +11,20 @@ const DropDown = ({ title, list1 }) => {
   let { focusWithinProps } = useFocusWithin({
     onFocusWithinChange: (isFocusWithin) => setFocusWithin(isFocusWithin),
   });
+  const divRef = useRef();
+
+  useEffect(() => {
+    window.addEventListener("click", (e) => {
+      if (e.target !== divRef.current) {
+        setIsOpen(false);
+      }
+    });
+  });
 
   return (
     <motion.div
       layout
+      ref={divRef}
       onClick={() => setIsOpen(!IsOpen)}
       // onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => setIsOpen(false)}
